@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    {%include head.html%}
+    <body class="{{ page.index }}">
+        {% include header.html %}
+        <div class="container main">
+            {% if page.hero_image %}
+                <div class="hero-image row" style="background-image:url('{{page.hero_image}}');"></div>
+                    <!-- <img src="{{page.hero_image}}" class="img-reponsive" alt=""/> -->
+            {% endif %}
+
+            {% include nav.html %}
+
+            {% if page.header_title %} <h1>{{ page.header_title }}</h1> {% endif %}
+            {% if page.lead_text %} <p class="col-sm-12 lead">{{ page.lead_text }}</p> {% endif %}
+            {{ content }}            
+        </div> 
+        {% include footer.html %}
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<nav class="navbar navbar-static-top row {% if page.hero_image %}hero-img{% endif %}" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{site.baseurl}}"><img class="img-responsive" src="{{ site.baseurl }}img/ebg_logo@2x.png" />{{ site.name }}</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav nav-pills nav-justified">
+            {% for link in site.navigation %}
+              {% assign current = nil %}
+
+              {% if page.permalink == link.url %}
+                {% assign current = 'active' %}
+              {% endif %}
+
+                {% if link.text == "Home" %}
+                <!-- <li class="home"> -->
+                <!-- </li> -->
+                {% else if %}
+                <li class="{{ current }}">              
+                    <a class="{{ current }}" href="{{ site.baseurl }}{{ link.url }}">
+                        {{ link.text }}
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        </div>
+</nav>
