@@ -6,7 +6,7 @@ html {
   line-height: 1.4rem; }
 
 body {
-  background: #deceb2 url("/img/concrete_wall_3.jpg") repeat 0 0;
+  background: #deceb2 url("../img/concrete_wall_3.jpg") repeat 0 0;
   font-family: "Nunito", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
@@ -39,13 +39,13 @@ p {
 
 hr {
   border: 0;
-  background: transparent url("/img/hr-hand.png") no-repeat center center;
+  background: transparent url("../img/hr-hand.png") no-repeat center center;
   height: 2.8rem;
   padding: 2rem 0;
   clear: both; }
 
 .main {
-  background: white url("/img/concrete_wall_2.jpg") repeat 0 0;
+  background: white url("../img/concrete_wall_2.jpg") repeat 0 0;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;

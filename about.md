@@ -3,7 +3,7 @@
 layout: default
 title:  "About"
 permalink: about/
-hero_image: '/img/gamble.png'
+hero_image: 'gamble.png'
 header_title: 'Our Partners'
 
 ---

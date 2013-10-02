@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background:$tan url('/img/concrete_wall_3.jpg') repeat 0 0;
+    background:$tan url('../img/concrete_wall_3.jpg') repeat 0 0;
     font: {
         family:$base-font;
         size:1.6rem;
@@ -49,14 +49,14 @@ p { padding:0 3rem 1em 3rem; }
 
 hr {
     border:0;
-    background:transparent url('/img/hr-hand.png') no-repeat center center;
+    background:transparent url('../img/hr-hand.png') no-repeat center center;
     height:2.8rem;
     padding:2rem 0;
     clear:both;
 }
 
 .main {
-    background:$white url('/img/concrete_wall_2.jpg') repeat 0 0;
+    background:$white url('../img/concrete_wall_2.jpg') repeat 0 0;
     @include border-radius(8px);    
     @include background-clip(padding-box);
     -moz-background-clip: padding;
