@@ -1,15 +1,48 @@
 ---
 
-layout: default
-title:  "About"
+layout: secondary
+title:  "Our Partners"
 permalink: about/
-hero_image: 'gamble.png'
-header_title: 'Our Partners'
+nav_title: 'About Us'
+nav_weight: 1
+
+hero_image: 'fpo-partners.jpg'
+
+---
+<div id="" class="container columns">
+<div class="col-sm-4">
+<h2>Amy Larrimore</h2>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+</div>
+
+<div class="col-sm-4">
+<h2>Geoff Weber</h2>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+</div>
+</div>
 
 ---
 
-![image](http://lorempixel.com/g/1050/500/business)
+<h1>We All Stand United.</h1>
+<img class="img-responsive row" src="{{site.baseurl}}img/associates.png" alt="" />
+<div id="" class=" columns">
+<div class="col-sm-3 col-sm-offset-1">
+    <h2>Consulting</h2>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+</div>
 
-Lorem ipsum dolor sit amet, [test link](http://) adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. **Donec faucibus.** Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+<div class="col-sm-4">
+    <h2>Industry</h2>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+</div>
 
-Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit. *Nullam dignissim convallis est.* Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+<div class="col-sm-3">
+    <h2>Think Tank</h2>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+</div>
+</div>

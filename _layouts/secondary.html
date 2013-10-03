@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
     {%include head.html%}
-    <body class="{{ page.index }} default-layout">
+    <body class="{{ page.index }} secondary-layout">
         {% include header.html %}
         <div class="container main">
+            {% include nav.html %}
+
             {% if page.hero_image %}
-                <div class="hero-image row" style="background-image:url('{{site.baseurl}}img/{{page.hero_image}}');"></div>
+                <div class="hero-image row" style="background-image:url('{{site.baseurl}}img/{{page.hero_image}}');">
+                    {% if page.title %} <h1 class="intro">{{ page.title }}</h1> {% endif %}
+                </div>
                     <!-- <img src="{{page.hero_image}}" class="img-reponsive" alt=""/> -->
             {% endif %}
 
-            {% include nav.html %}
-
-            {% if page.title %} <h1 class="intro">{{ page.title }}</h1> {% endif %}
             {% if page.lead_text %} <p class="col-sm-12 intro">{{ page.lead_text }}</p> {% endif %}
             {{ content }}            
         </div> 

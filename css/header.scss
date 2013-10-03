@@ -1,9 +1,17 @@
+// -------------------------- MAIN TOP HEADER
+
 header {
     font-style:italic;
-    color:darken($tan, 30%);
-    text-shadow: 0 -1px 0 rgba($brown, 0.6), 0 1px 0 $white;
-    padding-top:0.5em;
+//    color:darken($tan, 30%);
+color:#837a6a;
+    padding:0.6em 0 0.4em 0;
+    h4 {
+        font-size:1.6rem;
+        text-shadow: -1px 1px 2px rgba($white, 0.6);
+    }
 }
+
+// -------------------------- HERO IMAGE
 
 .hero-image {
     background-repeat:no-repeat;
@@ -11,10 +19,116 @@ header {
     @include background-size(150%); 
     height:150px;
     display:block;
+    
+    h1 {
+        color:$white;
+        text-shadow:-2px 4px 2px rgba($black,.5);
+        margin-top:0.6em;
+    }
+    
 @include breakpoint(sm){
+    .default-layout &{
+        @include border-radius(9px 9px 0 0); 
+    }
+    .secondary-layout & {
+        height:450px;
+    }
     height:354px;
 //    background-position:50% 20%;
-    @include border-radius(9px 9px 0 0); 
     @include background-size(105%); 
 }
+}
+
+// -------------------------- NAVIGATION
+
+//border: 1px solid #360c0c;
+//background-color: #4f1515;
+//box-shadow: 0 2px 2px rgba(0,0,0,.2), inset 0 -5px 9px rgba(255,255,255,.03);
+//background-image: linear-gradient(bottom, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
+
+nav.navbar {
+    .secondary-layout &{
+        margin-bottom: 0;
+    }
+    margin-bottom: 5rem;
+    background-color:$red;
+    color:$white;
+    @include border-radius(8px 8px 0 0);
+    @include box-shadow(0 2px 4px rgba(0,0,0,.3));
+    @include background-linear-gradient(bottom, $red, 0%, darken($red, 5%), 100%);
+
+    .default-layout &.hero-img {
+        @include border-radius(0);
+    }
+    
+    @include breakpoint(xs) {
+        @include border-radius(0);
+    }
+    
+    .navbar-toggle {
+        color:$white;
+        background:darken($red, 8%);
+        @include box-shadow(0 1px 4px rgba($white,0.14));
+        
+        span.icon-bar {
+            background:$white;
+            @include box-shadow(0 1px 4px rgba($brown,.5));
+        }
+    }
+    
+    .navbar-brand{
+        max-width:121px;
+        max-height:116px;
+        position:absolute;
+        left:50%;
+        top:-3rem;
+        margin-left:-60px;
+        overflow:hidden;
+        text-indent:-500%;
+        padding:0;
+        z-index:1000;
+        img { 
+        }
+    }
+    
+    .navbar-collapse {
+        padding:1rem 0;
+    }
+    
+    ul.nav {
+        &:first-child{ padding-top:2em; }
+
+        padding:0 1em;
+
+        li {
+            padding:0.25em 0;
+            a {
+                color:$white; 
+                text-transform:uppercase;
+                font-weight:700;
+                font-size:1.5rem;
+                font-family:$secondary-font;
+                letter-spacing:0.1rem;
+            &:hover, &.active { 
+                @extend .navbar-toggle;
+                background:darken($red, 9%);
+                @include border-radius(14px);
+//                @include box-shadow(0 1px 3px rgba($white,0.14));
+            }
+            }
+        }
+    @include breakpoint(sm) {
+        padding:0 1em;
+        
+        &:first-child{ padding-top:0;}
+        
+        &.nav-justified {
+            width:45%;
+        }    
+     
+        li {
+            padding:0 0.3em;
+        }
+    }    
+    }
 }

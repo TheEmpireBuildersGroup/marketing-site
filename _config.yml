@@ -1,27 +1,28 @@
-name: The Empire Builders Group
-email: info@empirebuilders.com
-phone: (267) 825-7311 
+name: 'The Empire Builders Group'
+email: 'info@empirebuilders.com'
+phone: '(267) 825-7311'
+address: '13 S. Letitia St, Philadelphia, PA 19106'
 markdown: rdiscount
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 pygments: true
 
-baseurl: /ebg/
+# baseurl: /ebg/
 relative_permalinks: false
 permalink: pretty
 
-navigation:
-- text: About Us
-  url: about/
-- text: Consultancy
-  url: consult/
-- text: Products
-  url: products/
-- text: Home
-  url: /
-- text: Industrys
-  url: industry/
-- text: Think Tank
-  url: think/
-- text: Reach Us
-  url: contact/
+# navigation:
+# - text: About Us
+#   url: about/
+# - text: Consultancy
+#   url: consult/
+# - text: Products
+#   url: products/
+# - text: Home
+#   url: /
+# - text: Sectors
+#   url: sectors/
+# - text: Think Tank
+#   url: think/
+# - text: Reach Us
+#   url: contact/

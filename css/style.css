@@ -6,17 +6,18 @@ html {
   line-height: 1.4rem; }
 
 body {
-  background: #deceb2 url("../img/concrete_wall_3.jpg") repeat 0 0;
+  background: #cfbea3 url("../img/philly-map.jpg") repeat 40% 25%;
   font-family: "Nunito", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
-  color: #231011; }
+  color: #3a211d; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
   line-height: 1.5em;
-  margin: 0.25em 0 0.75em 0; }
+  margin: 0.25em 0 0.75em 0;
+  text-shadow: -2px 3px 1px rgba(202, 192, 164, 0.75); }
 
 h1, .h1 {
   font-size: 4.2rem;
@@ -24,6 +25,9 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 3.2rem; }
+
+h3, .h3 {
+  margin: 0.25em 0; }
 
 .main.container img {
   max-width: 100%; }
@@ -34,14 +38,11 @@ ul {
   ul li {
     margin: 0; }
 
-p {
-  padding: 0 3rem 1em 3rem; }
-
 hr {
   border: 0;
   background: transparent url("../img/hr-hand.png") no-repeat center center;
   height: 2.8rem;
-  padding: 2rem 0;
+  padding: 3rem 0;
   clear: both; }
 
 .main {
@@ -53,22 +54,34 @@ hr {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   -moz-background-clip: padding;
-  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.34);
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.34);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0 6px 16px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 6px 16px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 16px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+  padding-bottom: 70px; }
 
-p.lead {
-  font-size: 2rem;
-  padding-left: 6rem;
-  padding-right: 6rem; }
+@media only screen and (min-width: 768px) {
+  h1.intro {
+    padding: 0 6em; } }
+
+p.intro {
+  font-size: 2rem; }
+  @media only screen and (min-width: 768px) {
+    p.intro {
+      padding-left: 10rem;
+      padding-right: 10rem; } }
+
+.columns img {
+  margin: 2rem auto; }
 
 header {
   font-style: italic;
-  color: #ad894a;
-  text-shadow: 0 -1px 0 rgba(35, 16, 17, 0.6), 0 1px 0 white;
-  padding-top: 0.5em; }
+  color: #837a6a;
+  padding: 0.6em 0 0.4em 0; }
+  header h4 {
+    font-size: 1.6rem;
+    text-shadow: -1px 1px 2px rgba(255, 255, 255, 0.6); }
 
 .hero-image {
   background-repeat: no-repeat;
@@ -79,16 +92,23 @@ header {
   background-size: 150%;
   height: 150px;
   display: block; }
+  .hero-image h1 {
+    color: white;
+    text-shadow: -2px 4px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 0.6em; }
   @media only screen and (min-width: 768px) {
     .hero-image {
       height: 354px;
-      -moz-border-radius: 9px 9px 0 0;
-      -webkit-border-radius: 9px 9px 0 0;
-      border-radius: 9px 9px 0 0;
       -webkit-background-size: 105%;
       -moz-background-size: 105%;
       -o-background-size: 105%;
-      background-size: 105%; } }
+      background-size: 105%; }
+      .default-layout .hero-image {
+        -moz-border-radius: 9px 9px 0 0;
+        -webkit-border-radius: 9px 9px 0 0;
+        border-radius: 9px 9px 0 0; }
+      .secondary-layout .hero-image {
+        height: 450px; } }
 
 nav.navbar {
   margin-bottom: 5rem;
@@ -97,16 +117,18 @@ nav.navbar {
   -moz-border-radius: 8px 8px 0 0;
   -webkit-border-radius: 8px 8px 0 0;
   border-radius: 8px 8px 0 0;
-  -moz-box-shadow: inset 0 -3px 9px rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: inset 0 -3px 9px rgba(255, 255, 255, 0.2);
-  box-shadow: inset 0 -3px 9px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   background-color: #4f1515;
   background-image: -webkit-linear-gradient(bottom, #4f1515 0%, #3b1010 100%);
   background-image: -moz-linear-gradient(bottom, #4f1515 0%, #3b1010 100%);
   background-image: -ms-linear-gradient(bottom, #4f1515 0%, #3b1010 100%);
   background-image: -o-linear-gradient(bottom, #4f1515 0%, #3b1010 100%);
   background-image: linear-gradient(bottom, #4f1515 0%, #3b1010 100%); }
-  nav.navbar.hero-img {
+  .secondary-layout nav.navbar {
+    margin-bottom: 0; }
+  .default-layout nav.navbar.hero-img {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0; }
@@ -115,17 +137,17 @@ nav.navbar {
       -moz-border-radius: 0;
       -webkit-border-radius: 0;
       border-radius: 0; } }
-  nav.navbar .navbar-toggle {
-    color: black;
+  nav.navbar .navbar-toggle, nav.navbar ul.nav li a:hover, nav.navbar ul.nav li a.active {
+    color: white;
     background: #2f0c0c;
     -moz-box-shadow: 0 1px 4px rgba(255, 255, 255, 0.14);
     -webkit-box-shadow: 0 1px 4px rgba(255, 255, 255, 0.14);
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.14); }
-    nav.navbar .navbar-toggle span.icon-bar {
+    nav.navbar .navbar-toggle span.icon-bar, nav.navbar ul.nav li a:hover span.icon-bar, nav.navbar ul.nav li a.active span.icon-bar {
       background: white;
-      -moz-box-shadow: 0 1px 4px rgba(35, 16, 17, 0.5);
-      -webkit-box-shadow: 0 1px 4px rgba(35, 16, 17, 0.5);
-      box-shadow: 0 1px 4px rgba(35, 16, 17, 0.5); }
+      -moz-box-shadow: 0 1px 4px rgba(58, 33, 29, 0.5);
+      -webkit-box-shadow: 0 1px 4px rgba(58, 33, 29, 0.5);
+      box-shadow: 0 1px 4px rgba(58, 33, 29, 0.5); }
   nav.navbar .navbar-brand {
     max-width: 121px;
     max-height: 116px;
@@ -140,7 +162,9 @@ nav.navbar {
   nav.navbar .navbar-collapse {
     padding: 1rem 0; }
   nav.navbar ul.nav {
-    padding: 2em 1em 0 1em; }
+    padding: 0 1em; }
+    nav.navbar ul.nav:first-child {
+      padding-top: 2em; }
     nav.navbar ul.nav li {
       padding: 0.25em 0; }
       nav.navbar ul.nav li a {
@@ -151,16 +175,17 @@ nav.navbar {
         font-family: "Source Sans Pro", sans-serif;
         letter-spacing: 0.1rem; }
         nav.navbar ul.nav li a:hover, nav.navbar ul.nav li a.active {
-          background: #231011;
+          background: #2b0b0b;
           -moz-border-radius: 14px;
           -webkit-border-radius: 14px;
-          border-radius: 14px;
-          -moz-box-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
-          -webkit-box-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
-          box-shadow: 0 1px 2px rgba(255, 255, 255, 0.2); }
+          border-radius: 14px; }
     @media only screen and (min-width: 768px) {
       nav.navbar ul.nav {
         padding: 0 1em; }
+        nav.navbar ul.nav:first-child {
+          padding-top: 0; }
+        nav.navbar ul.nav.nav-justified {
+          width: 45%; }
         nav.navbar ul.nav li {
           padding: 0 0.3em; } }
 

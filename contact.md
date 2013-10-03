@@ -3,7 +3,10 @@
 layout: default
 title:  "Reach Us"
 permalink: contact/
-header_title: 'Reach Us'
+nav_title: 'Reach Us'
+nav_weight: 5
+nav_side: 'right'
+
 lead_text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
 Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.'
 ---

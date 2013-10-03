@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background:$tan url('../img/concrete_wall_3.jpg') repeat 0 0;
+    background:$tan2 url('../img/philly-map.jpg') repeat 40% 25%;
     font: {
         family:$base-font;
         size:1.6rem;
@@ -22,11 +22,12 @@ font-family: $header-font;
 font-weight: 500;
 line-height: 1.5em;
 margin:0.25em 0 0.75em 0;
+text-shadow: -2px 3px 1px rgba(202, 192, 164, 0.75);
 }
 
 h1, .h1 { font-size:4.2rem; font-style:italic;}
 h2, .h2 { font-size:3.2rem; }
-h3, .h3 { }
+h3, .h3 { margin:0.25em 0; }
 h4, .h4 { }
 h5, .h5 { }
 h6, .h6 { }
@@ -45,13 +46,13 @@ ul {
     li { margin:0;}
 }
 
-p { padding:0 3rem 1em 3rem; }
+//p { padding:0 3rem 1em 3rem; }
 
 hr {
     border:0;
     background:transparent url('../img/hr-hand.png') no-repeat center center;
     height:2.8rem;
-    padding:2rem 0;
+    padding:3rem 0;
     clear:both;
 }
 
@@ -60,10 +61,30 @@ hr {
     @include border-radius(8px);    
     @include background-clip(padding-box);
     -moz-background-clip: padding;
-    @include box-shadow(0 2px 5px rgba(0,0,0,.34));
+    @include box-shadow(0 6px 16px 5px rgba(0,0,0,.2));
     text-align:center;
     margin-bottom:150px;
+    padding-bottom:70px;
 //    overflow:hidden;
 }
 
-p.lead { font-size:2rem; padding-left:6rem; padding-right:6rem; }
+h1.intro { 
+@include breakpoint(sm){
+    padding: 0 6em; 
+}
+}
+
+p.intro { 
+    font-size:2rem; 
+@include breakpoint(sm){
+padding-left:10rem; padding-right:10rem; 
+}
+}
+
+.columns {
+    img { margin:2rem auto; }
+    
+    p {
+//        font-size:1.4rem;
+    }
+}
