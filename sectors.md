@@ -1,18 +1,21 @@
 ---
 
-layout: default
-title:  "Industry Sectors"
+layout: secondary
+title:  "The Industry Sectors We Protect"
 permalink: sectors/
 nav_title: 'Sectors'
 nav_weight: 4
 nav_side: 'right'
 
-lead_text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.'
+hero_image: 'da-vinci-invention.jpg'
+lead_text: 
+hero_image_height: '250px'
 ---
 
-<!-- ![image](http://lorempixel.com/800/300/abstract)
+    ---- What about this stuff? ----
+    — sector summary -
 
-Lorem ipsum dolor sit amet, [test link](http://) adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. **Donec faucibus.** Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+    — clients -
+    Can you supply this list?
 
-Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit. *Nullam dignissim convallis est.* Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. -->
+    - case studies -

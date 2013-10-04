@@ -2,6 +2,8 @@ name: 'The Empire Builders Group'
 email: 'info@empirebuilders.com'
 phone: '(267) 825-7311'
 address: '13 S. Letitia St, Philadelphia, PA 19106'
+tagline: 'Data — Process — Technology: Aligned'
+
 markdown: rdiscount
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
