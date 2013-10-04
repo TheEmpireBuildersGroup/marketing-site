@@ -11,6 +11,8 @@ hero_image_height: 250px
 published: true
 ---
 
+![](/img/5607618644_6923b1d046_b.jpeg)
+![associates.png](/img/associates.png)
 ![associates.png](/img/associates.png)
 
 ---- What about this stuff? ----
