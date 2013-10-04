@@ -26,7 +26,7 @@ Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit ame
 ---
 
 <h1>We All Stand United.</h1>
-<img class="img-responsive row" src="{{site.baseurl}}img/associates.png" alt="" />
+<img class="img-responsive row" src="{{site.baseurl}}/img/associates.png" alt="" />
 <div id="" class=" columns">
 <div class="col-sm-3 col-sm-offset-1">
     <h2>Consulting</h2>
