@@ -15,4 +15,5 @@ permalink: pretty
 
 
 prose:
+    siteurl: "http://jeffreylarrimore.com/ebg"
     media: 'img'
