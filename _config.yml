@@ -7,7 +7,7 @@ markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 pygments: true
 
-baseurl: /ebg/
+baseurl: /ebg
 relative_permalinks: false
 permalink: pretty
 
