@@ -13,18 +13,6 @@ baseurl: /ebg
 relative_permalinks: false
 permalink: pretty
 
-# navigation:
-# - text: About Us
-#   url: about/
-# - text: Consultancy
-#   url: consult/
-# - text: Products
-#   url: products/
-# - text: Home
-#   url: /
-# - text: Sectors
-#   url: sectors/
-# - text: Think Tank
-#   url: think/
-# - text: Reach Us
-#   url: contact/
+
+prose:
+    media: 'img'
