@@ -1,4 +1,11 @@
+@import url(bootstrap.css);
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800);
+.btn-primary {
+  background-color: #cba133;
+  border: 0; }
+  .btn-primary:hover {
+    background-color: #a28129; }
+
 html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -263,9 +270,3 @@ nav.navbar {
           width: 45%; }
         nav.navbar ul.nav li {
           padding: 0 0.3em; } }
-
-.btn-primary {
-  background-color: #cba133;
-  border: 0; }
-  .btn-primary:hover {
-    background-color: #a28129; }

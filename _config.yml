@@ -10,6 +10,7 @@ textile_ext:   textile
 pygments: true
 
 baseurl: /ebg
+# jekyll serve --watch --baseurl=
 relative_permalinks: false
 permalink: pretty
 
