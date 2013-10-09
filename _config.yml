@@ -13,7 +13,6 @@ baseurl: /ebg
 relative_permalinks: false
 permalink: pretty
 
-
 prose:
     siteurl: "http://jeffreylarrimore.com/ebg"
     media: 'img'

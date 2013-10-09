@@ -72,6 +72,117 @@ lead_text:
 <p>We take a look at your business needs and review how the data flows in and out of the company. We determine where the data is stored and what you’ll need to get that great reporting you dream of. </p>
 <p>Deliverables from due diligence include functional specifications for technology, business analysis for process use case, data corruption or normalization recommendations, possible query architecture for reporting dashboards, feature and benefit review of competitive products, deep dive product analysis to use case, vendor management recommendations and more.</p>
 
+<div class="columns gallery">
+    <div class="fourth item">
+        <img src="/img/tech/jpeg-1.jpg" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/jpeg-10.jpg" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-4.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-10.png" alt="">
+    </div>
+    
+    <div class="half item">
+        <h3>Title or case study</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/jpeg-11.jpg" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/jpeg-11.jpg" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+
+    <div class="half item">
+        <h3>Title or case study</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+    </div>
+
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    
+    <div class="half item">
+        <h3>Title or case study</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-2.png" alt="">
+    </div>
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+    
+    <div class="fourth item">
+        <img src="/img/tech/png-6.png" alt="">
+    </div>
+
+</div>
+
     ---- What about this stuff? ----
     — Tools -
     I remember we discussed this a little and how you wanted to pair this down? How much

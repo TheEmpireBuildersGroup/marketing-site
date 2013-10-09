@@ -54,6 +54,9 @@ hr {
   padding: 3rem 0 2rem 0;
   clear: both; }
 
+pre {
+  clear: both; }
+
 .main {
   background: white url("../img/concrete_wall_2.jpg") repeat 0 0;
   -moz-border-radius: 8px;
@@ -81,26 +84,31 @@ h3.intro {
 p.intro {
   font-size: 2rem; }
 
-.columns img {
-  margin: 2rem auto; }
-.columns p {
-  padding: 0 0 1em 0; }
+.columns .half, .columns .third, .columns .fourth {
+  display: inline-block;
+  vertical-align: top; }
+  .columns .half:last-child, .columns .third:last-child, .columns .fourth:last-child {
+    margin-right: 0; }
+  .columns .half img, .columns .third img, .columns .fourth img {
+    width: 100%;
+    margin: 0; }
 @media only screen and (min-width: 768px) {
   .columns .half {
-    width: 42%;
-    margin-right: 3%;
-    display: inline-block;
-    vertical-align: top; }
-    .columns .half:last-child {
-      margin-right: 0; } }
+    width: 43%;
+    margin-right: 3%; } }
 @media only screen and (min-width: 768px) {
   .columns .third {
     width: 26%;
-    margin-right: 3%;
-    display: inline-block;
-    vertical-align: top; }
-    .columns .third:last-child {
-      margin-right: 0; } }
+    margin-right: 3%; } }
+@media only screen and (min-width: 768px) {
+  .columns .fourth {
+    width: 20%;
+    margin-right: 3%; } }
+.columns.gallery p {
+  font-size: 1.4rem; }
+.columns.gallery .half, .columns.gallery .third, .columns.gallery .fourth {
+  margin-top: 1em;
+  vertical-align: middle; }
 
 .full-width {
   width: 100%;

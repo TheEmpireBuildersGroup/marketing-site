@@ -4,8 +4,8 @@ layout: secondary
 title:  "Think Tank"
 permalink: think/
 nav_title: 'Think Tank'
-nav_weight: 3
-nav_side: 'right'
+#nav_weight: 3
+#nav_side: 'right'
 
 hero_image: '153414938.jpg'
 lead_text: 

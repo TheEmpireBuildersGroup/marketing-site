@@ -11,7 +11,38 @@ hero_image_height: 250px
 published: true
 ---
 
-![associates.png](/img/associates.png)
+<div class="columns">
+    <div class="fourth">
+        <h3>Vendor Management</h3>
+    </div>
+    
+    <div class="fourth">
+        <h3>Risk and Contract Management</h3>
+    </div>
+    
+    <div class="fourth">
+        <h3>Company Technology Strategy</h3>
+    </div>
+    <div class="fourth">
+        <h3>Company Technology Strategy</h3>
+    </div>
+    
+    <div class="half">
+        <h3>Vendor Management</h3>
+    </div>
+    
+    <div class="fourth">
+        <h3>Risk and Contract Management</h3>
+    </div>
+    
+    <div class="fourth">
+        <h3>Company Technology Strategy</h3>
+    </div>
+    <div class="fourth">
+        <h3>Company Technology Strategy</h3>
+    </div>
+</div>
+
 
 ---- What about this stuff? ----
     — sector summary -

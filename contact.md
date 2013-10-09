@@ -11,8 +11,42 @@ lead_text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio
 Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.'
 ---
 
-<!-- ![image](http://lorempixel.com/800/300/abstract)
+###76 & 676
 
-Lorem ipsum dolor sit amet, [test link](http://) adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. **Donec faucibus.** Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+- Take the exit from 676 for the Ben Franklin Bridge
+- Make a slight right onto N. 6th Street
+- Turn left onto Market Street
+- Cross over 2nd Street
+- Make next right onto Letitia Street at Franklin Fountain
+- The office is immediately on the left side, look for two potted trees and a red frontage.
+- There are a few options for parking:
+- 2-hour free parking available on Letitia Street
+- A parking lot on the left after passing the office
+- A parking garage on the right after passing the office
 
-Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit. *Nullam dignissim convallis est.* Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. -->
+###95 Northbound
+
+- Take the exit for Columbus Blvd.
+- Make a left at end of the ramp onto S. Columbus Blvd.
+- Take the Center City Market Street exit on the right, just past the Hilton Penn’s Landing
+- At top of ramp, make a left onto Market Street
+- At the end of bridge, turn left onto S. 2nd Street
+- Make next left onto Chestnut Street
+- Make next left onto Letitia Street at Black and White Awning
+- The office is almost at the end of the block on the right side, look for two potted trees and a red frontage.
+
+###Market-Frankford Line
+
+- Take the Market-Frankford Subway Line Eastbound (Blue Line) from Center City and get off at 2nd Street Station
+- Head east on Market Street towards the river/95/Penns Landing
+- Make next right onto Letitia Street at Franklin Fountain
+- The office is immediately on the left side, look for two potted trees and a red frontage.
+
+###Regional Rail
+
+- Take any Regional Rail line to Suburban Station in Philadelphia
+- Transfer to the Market-Frankford Subway Line Eastbound (Blue Line)
+- Get off at 2nd Street Station
+- Head east on Market Street towards the river/95/Penns Landing
+- Make next right onto Letitia Street at Franklin Fountain
+- The office is immediately on the left side, look for two potted trees and a red frontage.
