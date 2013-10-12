@@ -9,8 +9,8 @@ markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 pygments: true
 
-url:         http://theempirebuildersgroup.com
-baseurl: /
+url: http://theempirebuildersgroup.com
+baseurl: http://theempirebuildersgroup.com
 # jekyll serve --watch --baseurl=
 relative_permalinks: false
 permalink: pretty
