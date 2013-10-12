@@ -332,18 +332,20 @@ section.directions .half, section.directions .third, section.directions .fourth 
 
 #the_second ul.list {
   margin: auto 20%;
-  list-style-position: outside;
-  -moz-column-count: 2;
-  -moz-column-gap: 2em;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 2em;
-  column-count: 2;
-  column-gap: 2em;
-  -webkit-column-break-inside: break;
-  -moz-column-break-inside: break;
-  -o-column-break-inside: break;
-  -ms-column-break-inside: break;
-  column-break-inside: break; }
+  list-style-position: outside; }
+  @media only screen and (min-width: 768px) {
+    #the_second ul.list {
+      -moz-column-count: 2;
+      -moz-column-gap: 2em;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 2em;
+      column-count: 2;
+      column-gap: 2em;
+      -webkit-column-break-inside: break;
+      -moz-column-break-inside: break;
+      -o-column-break-inside: break;
+      -ms-column-break-inside: break;
+      column-break-inside: break; } }
   #the_second ul.list li {
     margin: 0 0 1em 2em; }
 

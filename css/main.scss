@@ -425,8 +425,11 @@ section.directions {
     ul.list {
         margin:auto 20%;
         list-style-position: outside;
-        @include columns(2, 2em);
-        @include columnbreakinside(break);
+
+        @include breakpoint(sm){
+            @include columns(2, 2em);
+            @include columnbreakinside(break);
+        }
 
         
         li {
