@@ -16,9 +16,9 @@ hero_image: 'gamble.png'
 Today, most Vice Presidents of Sales place their credit card into the internet to buy some third party database and then ask an intern to set it up properly to store and process the <strong>MOST VALUABLE ASSET a company has – its DATA</strong>. Then, when it doesn’t work out, they have nowhere to turn. <strong>We make sure this doesn’t happen to you.</strong>
 
 <div class="columns exact">
-    <div class="third"><a href="" class=""><img src="img/sectors_home.png"><h4>The Sectors</h4></a></div>
-    <div class="third"><a href="" class=""><img src="img/thinktank_home.png"><h4>About Us</h4></a></div>
-    <div class="third"><a href="" class=""><img src="img/services_home.png"><h4>Our Services</h4></a></div>
+    <div class="third"><a href="{{site.baseurl}}/about" class=""><img src="img/thinktank_home.png"><h4>About Us</h4></a></div>
+    <div class="third"><a href="{{site.baseurl}}/consult" class=""><img src="img/services_home.png"><h4>Our Services</h4></a></div>
+    <div class="third"><a href="{{site.baseurl}}/sectors" class=""><img src="img/sectors_home.png"><h4>The Sectors</h4></a></div>
 </div>
 
 <hr />
@@ -27,5 +27,5 @@ Today, most Vice Presidents of Sales place their credit card into the internet t
 Our Team of Data, Process and Technology Experts are recognized in their fields and by their peers and fix your stuff.
 
 
-<a href="/about" class="btn btn-primary">Learn About Our Crafted Team</a>
+<a href="{{site.baseurl}}/about" class="btn btn-primary">Learn About Our Crafted Team</a>
 

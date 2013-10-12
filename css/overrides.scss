@@ -10,6 +10,8 @@
     padding:0.9em 2.6em 0.8em 2.6em;
     text-shadow: 0 -1px 0 rgba(0,0,0,.47);
     @include border-radius(8px);
+    text-decoration:none;
+    display:inline-block;
     
     &:hover{
         @extend .btn-primary;
