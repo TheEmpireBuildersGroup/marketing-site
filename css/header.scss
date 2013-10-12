@@ -8,6 +8,8 @@ header {
     h4 {
         font-size:1.5rem;
         text-shadow: -1px 1px 2px rgba($white, 0.6);
+        padding:0.6em 0 1em 0;
+        margin:0;
     }
     
     a { color:darken(#837a6a, 20%);
@@ -33,12 +35,25 @@ footer.footer {
     display:block;
     position:relative;
     
+    h1 {
+        body.about & {
+            font-size:3.2rem;
+        }
+    }
+    
     h1, h2, h3 {
         color:$white;
         text-shadow:-2px 4px 2px rgba($black,.5);
-        margin-top:2em;
         padding:0 1em; 
-
+        margin-top: -1em;
+        top: 50%;
+        position: relative;
+        body.about & {
+            top:2em;
+        }
+        body.contact & {
+            margin-left:-3em;
+        }
         &.secondary {
             position:absolute;
             bottom: 0;
@@ -52,8 +67,7 @@ footer.footer {
         }
     }
     @include breakpoint(sm) {
-        margin-top:0.75em;
-        padding:0 6em;        
+        padding:0 0em;        
     }
     }
 
@@ -74,6 +88,28 @@ footer.footer {
     @include background-size(105%); 
 }
 }
+
+//h1.intro { 
+//    margin:0 0 0.1em 0;
+//    padding:0;
+//@include breakpoint(sm){
+////    padding: 0 6em; 
+//}
+//}
+
+//h3.intro {
+//    @extend h1.intro;
+//    margin-bottom:1em;
+//    padding:0;
+//}
+
+p.intro { 
+    font-size:2rem; 
+@include breakpoint(sm){
+//padding-left:10rem; padding-right:10rem; 
+}
+}
+
 
 // -------------------------- NAVIGATION
 
