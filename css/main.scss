@@ -252,18 +252,6 @@ img.full-width {
     }
 }
 
-.team {
-    display:inline-block;
-    margin:0 0.5em 2em 0.5em;
-    &.photo{
-        border: 4px solid #e5decf;
-        @include border-radius(99px);
-        background-clip: padding-box;
-        background-color: #c2b7a5;
-        box-shadow: 0 2px 7px 2px rgba(55,38,6,.4);
-    }
-}
-
 section.directions {
     @extend .columns;
     
@@ -316,7 +304,7 @@ section.directions {
     }
 }
 
-#tools {
+//#tools {
     .columns {
         .gallery-item {
             height:200px;
@@ -328,18 +316,53 @@ section.directions {
             display:table-cell;
             text-align:center;
             vertical-align:middle;
+            
+            #team &{
+                height:150px;
+                width:150px;
+                display:inline-block;
+                padding:0;
+                margin:0 0.5em;
+                img {
+                    
+                    max-height:150%;
+                    max-width:150%;
+                }
+            }
+            
+            #tools &{
+                img {
+                    @include filter(grayscale(100%) sepia(10%));
+                }
+                 &:hover img {
+                    @include filter(grayscale(0%) sepia(0%));
+                }
+            }
             img {
                 width:100%;
                 max-width:200px;
                 max-height:200px;
                 margin:auto;
                 vertical-align:middle;
-                @include filter(grayscale(100%) sepia(10%));
+//                @include filter(grayscale(100%) sepia(10%));
             }
-             &:hover img {
-                @include filter(grayscale(0%) sepia(0%));
-            }
+//             &:hover img {
+//                @include filter(grayscale(0%) sepia(0%));
+//            }
         }
+    }
+//}
+
+.team {
+    display:inline-block;
+    margin:0 0.5em 2em 0.5em;
+    &.photo{
+//        max-width:100px;
+//        border: 4px solid #e5decf;
+//        @include border-radius(99px);
+//        background-clip: padding-box;
+//        background-color: #c2b7a5;
+//        box-shadow: 0 2px 7px 2px rgba(55,38,6,.4);
     }
 }
 

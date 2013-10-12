@@ -198,18 +198,6 @@ img.full-width {
   .quote .half {
     width: 45%; }
 
-.team {
-  display: inline-block;
-  margin: 0 0.5em 2em 0.5em; }
-  .team.photo {
-    border: 4px solid #e5decf;
-    -moz-border-radius: 99px;
-    -webkit-border-radius: 99px;
-    border-radius: 99px;
-    background-clip: padding-box;
-    background-color: #c2b7a5;
-    box-shadow: 0 2px 7px 2px rgba(55, 38, 6, 0.4); }
-
 section.directions .half, section.directions .third, section.directions .fourth {
   text-align: left; }
   section.directions .half ul, section.directions .third ul, section.directions .fourth ul {
@@ -248,7 +236,7 @@ section.directions .half, section.directions .third, section.directions .fourth 
   left: -25px;
   top: 50%; }
 
-#tools .columns .gallery-item, #tools section.directions .gallery-item {
+.columns .gallery-item, section.directions .gallery-item {
   height: 200px;
   width: 200px;
   padding: 1.2em;
@@ -260,12 +248,16 @@ section.directions .half, section.directions .third, section.directions .fourth 
   display: table-cell;
   text-align: center;
   vertical-align: middle; }
+  #team .columns .gallery-item, #team section.directions .gallery-item {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    padding: 0;
+    margin: 0 0.5em; }
+    #team .columns .gallery-item img, #team section.directions .gallery-item img {
+      max-height: 150%;
+      max-width: 150%; }
   #tools .columns .gallery-item img, #tools section.directions .gallery-item img {
-    width: 100%;
-    max-width: 200px;
-    max-height: 200px;
-    margin: auto;
-    vertical-align: middle;
     -webkit-filter: grayscale(100%) sepia(10%);
     -moz-filter: grayscale(100%) sepia(10%);
     -ms-filter: grayscale(100%) sepia(10%);
@@ -277,6 +269,16 @@ section.directions .half, section.directions .third, section.directions .fourth 
     -ms-filter: grayscale(0%) sepia(0%);
     -o-filter: grayscale(0%) sepia(0%);
     filter: grayscale(0%) sepia(0%); }
+  .columns .gallery-item img, section.directions .gallery-item img {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    vertical-align: middle; }
+
+.team {
+  display: inline-block;
+  margin: 0 0.5em 2em 0.5em; }
 
 #the_second ul.list {
   margin: auto 20%;
