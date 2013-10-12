@@ -331,10 +331,11 @@ section.directions .half, section.directions .third, section.directions .fourth 
   margin: 0 0.5em 2em 0.5em; }
 
 #the_second ul.list {
-  margin: auto 20%;
+  margin: auto 4%;
   list-style-position: outside; }
   @media only screen and (min-width: 768px) {
     #the_second ul.list {
+      margin: auto 20%;
       -moz-column-count: 2;
       -moz-column-gap: 2em;
       -webkit-column-count: 2;

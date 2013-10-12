@@ -423,10 +423,11 @@ section.directions {
 
 #the_second {
     ul.list {
-        margin:auto 20%;
+        margin:auto 4%;
         list-style-position: outside;
 
         @include breakpoint(sm){
+            margin:auto 20%;
             @include columns(2, 2em);
             @include columnbreakinside(break);
         }
