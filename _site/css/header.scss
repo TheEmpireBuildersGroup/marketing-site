@@ -1,12 +1,12 @@
 // -------------------------- MAIN TOP HEADER
 
 header {
-    font-style:italic;
+//    font-style:italic;
 //    color:darken($tan, 30%);
     color:darken(#837a6a, 20%);
     padding:0.6em 0 0.4em 0;
     h4 {
-        font-size:1.5rem;
+        font-size:1.6rem;
         text-shadow: -1px 1px 2px rgba($white, 0.6);
         padding:0.6em 0 1em 0;
         margin:0;
@@ -116,6 +116,21 @@ footer.footer {
 //    margin-bottom:1em;
 //    padding:0;
 //}
+
+body.about{
+    .intro.secondary{
+        position:absolute;
+        bottom:1em;
+        margin:auto;
+        width:100%;
+        
+        h1,h2,h3,h4 {
+            top:0.5em;
+            color:$white;
+            text-shadow:-2px 4px 4px rgba($black,.8);
+        }
+    }
+}
 
 p.intro { 
     font-size:2rem; 
