@@ -1,20 +1,24 @@
 ---
 layout: default
-title: "Choosing Technology Without Our Expertise Can Be Risky Business."
-second_title: "Stop Gambling With Your Data."
+title: "Stop Gambling With Your Data!"
+second_title: "Choosing Technology Without Our Expertise Can Be Risky Business."
 permalink: /
 
 hero_image: 'gamble.png'
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ***
+=======
+---
+>>>>>>> parent of 327e273... updating homepage
 
-**Technology has changed the way business works and holds a company's most valuable asset** - its DATA. Ten years ago, no one would think about buying Goldmine or Oracle without convening a committee to discuss the data, legal and infrastructure needs. They’d create a functional specification and have a multidisciplinary team analyze the process, implement, port the data and provide comprehensive training to the users.
+##Technology has changed the way business works.
 
-Today, the average executive is **left on their own to poll LinkedIn for the best technology solution** for their specific problem. Then they stick their credit card number into the internet, buy a software as a service solution and ask the summer intern to set it up. Then, when it doesn’t work out, they **feel frustrated and end up paying tons of licensing fees** but managing the best they can using excel, wondering why it didn't work.
+<strong>Ten years ago, no one would think about buying Goldmine or an Oracle</strong> product without convening a committee to discuss the data, legal and infrastructure needs. They’d create a functional specification and have a <strong>multidisciplinary team analyze the process, implement, port</strong> the data and provide comprehensive training to the users.
 
-Business moves much faster in the digital age and people expect solutions to be in place very quickly. **Technology companies lead you to believe their system will meet a company's needs instantly and out of the box with little or no expert support.** Here, at The Empire Builders Group we find that most people have a day job to do and integrating a new piece of technology into the workflow of your business and making sure the information gets in there properly and continues to be put in there properly requires some careful attention.
+Today, most Vice Presidents of Sales place their credit card into the internet to buy some third party database and then ask an intern to set it up properly to store and process the <strong>MOST VALUABLE ASSET a company has – its DATA</strong>. Then, when it doesn’t work out, they have nowhere to turn. <strong>We make sure this doesn’t happen to you.</strong>
 
 <div class="columns exact">
     <div class="third"><a href="{{site.baseurl}}/about" class=""><img src="img/thinktank_home.png"><h4>About Us</h4></a></div>
@@ -33,4 +37,12 @@ Business moves much faster in the digital age and people expect solutions to be 
     <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img src="img/sectors_home.png"><h4>Our Clients</h4></a></div>
 >>>>>>> master
 </div>
+
+<hr />
+
+### Craftsman in Subject Matter
+Our Team of Data, Process and Technology Experts are recognized in their fields and by their peers and fix your stuff.
+
+
+<a href="{{site.baseurl}}/about" class="btn btn-primary">Learn About Our Crafted Team</a>
 
