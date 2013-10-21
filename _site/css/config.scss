@@ -1,0 +1,79 @@
+//@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700|Libre+Baskerville:400,400italic|Nunito:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Open+Sans:400italic,600italic,700italic,800italic,400,600,700,800);
+
+$red:#4f1515;
+$red2:#460e0f;
+$brown:#3a211d;
+$tan:#deceb2;
+$tan2:#cfbea3;
+$tan3:#e8e5dc;
+$blue:#0e6d97;
+$gold1:#cfb539;
+$gold2:#cba133;
+$gold3:#b18000;
+$white:#fff;
+$black:#000;
+
+$primary:$gold2;
+$secondary:$blue;
+
+
+//font-family: 'Libre Baskerville', serif;
+//font-family: 'Nunito', sans-serif;
+//font-family: 'Source Sans Pro', sans-serif;
+
+//$header-font:"adobe-caslon-pro", serif;
+$header-font:'Libre Baskerville', serif;
+$base-font:'Open Sans', sans-serif;
+//$base-font:'Nunito', sans-serif;
+//$secondary-font:'Source Sans Pro', sans-serif;
+$secondary-font:$base-font;
+
+//--------------------------- MIXINS
+@mixin breakpoint($point) {
+    @if $point == lg { @media only screen and (min-width : 1200px) { @content; } }
+    @else if $point == md { @media only screen  and (min-width : 992px) { @content; } }
+    @else if $point == sm { @media only screen  and (min-width : 768px) { @content; } }
+    @else if $point == xs { @media only screen  and (max-width : 768px) { @content; } }
+
+    @else if $point == md-below { @media only screen  and (max-width : 1200px) { @content; } }
+    @else if $point == sm-below { @media only screen  and (max-width : 992px) { @content; } }
+
+    @else if $point == tablet { @media only screen and (min-width : 768px) and (max-width : 1024px) { @content; } }
+    @else if $point == land-tablet { @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { @content; } }
+    @else if $point == port-tablet { @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { @content; } }
+    @else if $point == iphone { @media only screen and (min-width : 320px) and (max-width : 480px)  { @content; } }
+}
+
+//------------------------- Input Required Mixins
+@mixin text-shadow($left, $top, $size, $color) { text-shadow: $left $top $size $color; }
+@mixin border-radius($size) { -moz-border-radius: $size; -webkit-border-radius: $size; border-radius: $size; }
+@mixin box-shadow($size) { -moz-box-shadow: $size; -webkit-box-shadow: $size; box-shadow: $size; }
+@mixin transform($param) { -moz-transform: $param; -webkit-transform: $param; -o-transform: $param; -ms-transform: $param; transform: $param; }
+@mixin background-clip($param) { background-clip: $param; -webkit-background-clip: $param; -moz-background-clip: $param; }
+@mixin background-size($param) { -webkit-background-size: $param; -moz-background-size: $param; -o-background-size: $param; background-size: $param;}
+@mixin filter($param) { -webkit-filter:$param; -moz-filter:$param; -ms-filter:$param; -o-filter:$param; filter:$param; }
+@mixin columns($count, $gap) { -moz-column-count: $count; -moz-column-gap: $gap; -webkit-column-count: $count; -webkit-column-gap: $gap; column-count: $count; column-gap: $gap; }
+@mixin columnbreakinside($param) { -webkit-column-break-inside:$param; -moz-column-break-inside:$param; -o-column-break-inside:$param; -ms-column-break-inside:$param; column-break-inside:$param; }
+@mixin columnbreakafter($param) {
+    break-after: $param;
+    -webkit-column-break-after: $param; 
+    -moz-column-break-after: $param; 
+    -ms-column-break-after: $param; 
+    -o-column-break-after: $param; 
+}
+
+@mixin background-linear-gradient($startPoint, $startColor, $startInterval, $endColor, $endInterval){
+	background-color:$startColor;
+	background-image: -webkit-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: -moz-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: -ms-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: -o-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+}
+
+
+
+// Transitions-Animation ----------------------------------------------------
+@mixin transition($param) { -moz-transition: $param; -webkit-transition: $param; -o-transition: $param; -ms-transition: $param; transition: $param; }
+

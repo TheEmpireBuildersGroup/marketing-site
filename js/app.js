@@ -14,4 +14,8 @@ $(document).ready(function () {
     //         masonry: { columnWidth: $container.width() / 4 }
     //     });
     // });
+<<<<<<< HEAD
+=======
+        
+>>>>>>> master
 });

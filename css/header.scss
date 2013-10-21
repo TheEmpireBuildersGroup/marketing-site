@@ -1,12 +1,20 @@
 // -------------------------- MAIN TOP HEADER
 
 header {
+<<<<<<< HEAD
     font-style:italic;
+=======
+//    font-style:italic;
+>>>>>>> master
 //    color:darken($tan, 30%);
     color:darken(#837a6a, 20%);
     padding:0.6em 0 0.4em 0;
     h4 {
+<<<<<<< HEAD
         font-size:1.5rem;
+=======
+        font-size:1.6rem;
+>>>>>>> master
         text-shadow: -1px 1px 2px rgba($white, 0.6);
         padding:0.6em 0 1em 0;
         margin:0;
@@ -47,6 +55,7 @@ footer.footer {
     h1, h2, h3 {
         color:$white;
         text-shadow:-2px 4px 2px rgba($black,.5);
+<<<<<<< HEAD
         padding:0 1em; 
         margin-top: -1em;
         top: 50%;
@@ -54,6 +63,16 @@ footer.footer {
         body.about & {
             top:2em;
         }
+=======
+        padding:0 0.5em; 
+        margin: 0;
+//        margin-top: -1em;
+        top: 42%;
+        position: relative;
+//        body.about & {
+//            top:2em;
+//        }
+>>>>>>> master
         body.contact & {
             margin-left:-3em;
         }
@@ -63,10 +82,24 @@ footer.footer {
             width:100%;
         }
     @include breakpoint(md-below){
+<<<<<<< HEAD
         font-size:1.8em;
         
         &.secondary {
             font-size:1.3em;
+=======
+        font-size:2.3em;
+        
+        &.secondary {
+            font-size:1.4em;
+        }
+    }
+    @include breakpoint(sm-below){
+        font-size:2em;
+        
+        &.secondary {
+            font-size:2em;
+>>>>>>> master
         }
     }
     @include breakpoint(sm) {
@@ -91,16 +124,26 @@ footer.footer {
         @include border-radius(9px 9px 0 0); 
     }
 //    background-position:50% 20%;
+<<<<<<< HEAD
     @include background-size(110%);
+=======
+    @include background-size(120%);
+>>>>>>> master
     
     body.about &{
         @include background-size(100%);
         background-position:50% 50%;
     }
 }
+<<<<<<< HEAD
 @include breakpoint(lg){
     background-position:50% 20%;
 }
+=======
+    @include breakpoint(lg){
+        background-position:50% 20%;
+    }
+>>>>>>> master
 }
 
 //h1.intro { 
@@ -117,6 +160,32 @@ footer.footer {
 //    padding:0;
 //}
 
+<<<<<<< HEAD
+=======
+body.about h1{
+    top:2.5em;
+}
+body.secondary-layout {
+    .intro.secondary{
+        position:absolute;
+        bottom:1em;
+        margin:auto;
+        width:100%;
+        text-shadow:-2px 4px 4px rgba($black,.8);
+    
+        h1,h2,h3,h4,h5, {
+    //            top:0.5em;
+            color:$white;
+            text-shadow:-2px 4px 4px rgba($black,.8);
+        }
+    
+        h5 & {
+           color:$gold3; 
+        }
+    }
+}
+
+>>>>>>> master
 p.intro { 
     font-size:2rem; 
 @include breakpoint(sm){
