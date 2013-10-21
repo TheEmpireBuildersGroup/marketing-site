@@ -9,7 +9,11 @@ hero_image: 'gamble.png'
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ***
+=======
+---
+>>>>>>> parent of 327e273... updating homepage
 =======
 ---
 >>>>>>> parent of 327e273... updating homepage
