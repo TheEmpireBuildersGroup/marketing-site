@@ -38,26 +38,38 @@ footer.footer {
     display:block;
     position:relative;
     
-    h1 {
-        body.about & {
-            font-size:3.2rem;
+    body.about & {
+        h1 {
+            font-size:3.2rem;            
+        }
+        
+        h4 { 
+            font-size:2.2rem;
+        }
+        
+        h5 { 
+            font-size:1.6rem;
         }
     }
     
-    h1, h2, h3 {
+    body.contact & {
+        h1,h2,h3,h4,h5,h6 {
+            margin-left:-3em;
+            &.secondary {
+                position:relative;
+                margin-left:-3.5em;
+            }
+        }
+    }
+    
+    h1, h2, h3, h4, h5 {
         color:$white;
         text-shadow:-2px 4px 2px rgba($black,.5);
         padding:0 0.5em; 
         margin: 0;
-//        margin-top: -1em;
         top: 42%;
         position: relative;
-//        body.about & {
-//            top:2em;
-//        }
-        body.contact & {
-            margin-left:-3em;
-        }
+
         &.secondary {
             position:absolute;
             bottom: 0;
@@ -67,14 +79,14 @@ footer.footer {
         font-size:2.3em;
         
         &.secondary {
-            font-size:1.4em;
+            font-size:1.2em;
         }
     }
     @include breakpoint(sm-below){
         font-size:2em;
         
         &.secondary {
-            font-size:2em;
+            font-size:1em;
         }
     }
     @include breakpoint(sm) {
@@ -130,6 +142,7 @@ body.about h1{
 }
 body.secondary-layout {
     .intro.secondary{
+        color:$white;
         position:absolute;
         bottom:1em;
         margin:auto;
@@ -140,10 +153,6 @@ body.secondary-layout {
     //            top:0.5em;
             color:$white;
             text-shadow:-2px 4px 4px rgba($black,.8);
-        }
-    
-        h5 & {
-           color:$gold3; 
         }
     }
 }
@@ -206,6 +215,10 @@ nav.navbar {
         z-index:1000;
         img { 
             margin:auto;
+            @include transition(all 0.3s ease-in-out);
+            &:hover{
+                @include transform(scale(0.98));
+            }
         }
     }
     

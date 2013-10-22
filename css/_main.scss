@@ -154,6 +154,11 @@ img.full-width {
     top: 0.4em;
 }
 
+.base-type {
+    font-size:1.8rem;
+    line-height:1.6em;
+}
+
 .quote {
     font-family:$header-font;
     font-style:italic;
@@ -171,11 +176,12 @@ img.full-width {
     h1, h2, h3, h4 {
         margin:0;
         color:#474748;
+        text-shadow:0 1px 0 $white;
     }
     
     p {
         padding:0;
-        margin:0;
+        margin:0 0 1em 0;
     }
     
     .subnote {
@@ -187,14 +193,47 @@ img.full-width {
     }
 }
 
-section.directions {
-    
+#directions {
     .half, .third, .fourth {
         text-align:left;
         ul {
             font-size:1.3rem;
+            line-height:1.5em;
             list-style:disc;
         }
+    }
+    
+    padding-bottom:1em;
+
+    a:hover {text-decoration:none;}
+    
+    img {
+        @include transition(all 0.3s ease-out);
+        &:hover{
+            @include transform(rotate(5deg));
+        }
+    }
+    
+    .fourth {
+         h4 { font-size:1.2em; }
+    }
+        
+    .panel {
+        background:none;
+        box-shadow: none;
+        overflow:visible;
+    }
+    
+    .panel-heading {
+    }
+
+    .panel-title {
+        @extend .h2;
+        margin-bottom:0.4em !important;
+    }
+
+    .panel-group .panel-heading + .panel-collapse .panel-body {
+        border-top:0;
     }
 }
 

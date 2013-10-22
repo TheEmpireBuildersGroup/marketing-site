@@ -76,4 +76,7 @@ $secondary-font:$base-font;
 
 // Transitions-Animation ----------------------------------------------------
 @mixin transition($param) { -moz-transition: $param; -webkit-transition: $param; -o-transition: $param; -ms-transition: $param; transition: $param; }
+// @mixin transition($param, $speed, $type) { -moz-transition: $param, $speed, $type; -webkit-transition: $param, $speed, $type; -o-transition: $param, $speed, $type; -ms-transition: $param, $speed, $type; transition: $param, $speed, $type; }
+@mixin transform($type) { transform: $type; -ms-transform: $type; /* IE 9 */ -webkit-transform: $type; /* Safari and Chrome */}
+
 
