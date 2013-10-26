@@ -11,6 +11,7 @@ pygments: true
 
 url: http://theempirebuildersgroup.com
 baseurl: http://theempirebuildersgroup.com
+assets: /assets
 relative_permalinks: false
 permalink: pretty
 
