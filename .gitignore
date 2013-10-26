@@ -1,26 +1,5 @@
+_site
+_site/
 
-_site/consult/index.html
 
-_site/consult/index.html
-
-_site/contact/index.html
-
-_site/index.html
-
-_site/jekyll/update/2013/10/01/welcome-to-jekyll/index.html
-
-_site/masters/index.html
-
-_site/products/index.html
-
-_site/products/index.html
-
-_site/sectors/index.html
-
-_site/sectors/index.html
-
-_site/syntax/index.html
-
-_site/think/index.html
-
-_site/think/index.html
+*.scssc
