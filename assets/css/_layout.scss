@@ -1,0 +1,136 @@
+/* ------------------- Grid and page Layout
+----------------------------------------- */
+
+.three-quarters .half, .third, .fourth {
+    display:inline-block;
+    vertical-align:top;
+
+    &:last-child {
+        margin-right:0;
+    }        
+    img { 
+        width:100%; 
+        margin:0;
+        &.img {
+            width:auto;
+        }
+    }
+}
+.three-quarters {
+    @include breakpoint(sm){
+        width:80%;
+        margin:auto;
+    }        
+}
+.half {
+    @include breakpoint(sm){
+        width:43%;
+        margin-right:3%;
+        &:nth-of-type(2n){
+            margin-right:0;
+        }
+    }        
+}
+.third {
+    @include breakpoint(sm){
+        $width:(100%/3);
+
+        font-size:0.9em;
+        line-height:1.35em;
+        margin-right: 1%;
+        width:$width - 6%;
+    
+        p { padding:0 0.7em;}
+        
+        &:nth-of-type(3n){
+            margin-right:0;
+        }
+        &.wider {
+            width:$width - 2%;
+        }
+    }
+}
+.fourth {
+    @include breakpoint(sm){
+        $width:(100%/4);
+
+        font-size:0.85em;
+        line-height:1.35em;
+        margin-right:2%;
+        width:$width - 3%;//20%;
+        
+        p { padding:0 0.7em;}
+        
+        hr { background:none; padding:0; height:0; width:30%; border-bottom:solid 1px rgba($brown, 0.2);}
+        ul {font-size:0.9em;}
+
+        &:nth-of-type(4n){
+            margin-right:0;
+        }
+    }
+}
+
+.exact {
+    .half, .third, .fourth {
+        text-align:center;
+        vertical-align: middle;
+        a{ }
+        img { width: auto;}
+        h4 { }
+    }
+}
+
+
+#tools {
+    h5 {margin-bottom:2em;}
+    h4 {margin-top:1em;}
+}
+
+.grid-block {
+    background:$white;
+    @include border-radius(6%);
+    display:table-cell;
+    height:220px;
+    width:300px;
+    padding:1.2em;
+    margin:0 auto 3em auto;
+    overflow:hidden;
+    text-align:center;
+    vertical-align:middle;
+
+        img {
+            max-height:200px;
+            max-width:200px;
+            width:100%;
+            margin:auto;
+        }
+}
+
+.grid-circles {
+    $hXw:170px;
+
+    @include breakpoint(md-below) {
+        height:$hXw;
+        width:$hXw;        
+    }
+    @extend .grid-block;
+    @include border-radius(100%);
+    background:transparent;
+    border: 4px solid #e5decf;
+    box-shadow: 0 2px 7px 2px rgba(55,38,6,.4);
+    width:200px;
+    height:200px;
+    display:inline-block;
+    margin:0 0.5em;
+    padding:0;
+    
+    &:first-of-type, &:last-of-type {
+        height:$hXw - 20px;
+        width:$hXw - 20px;
+    }
+}
+
+.nostyle {
+    border:0;
+    box-shadow: none;
+}
