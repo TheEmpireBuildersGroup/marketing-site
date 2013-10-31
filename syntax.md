@@ -799,9 +799,9 @@ for links, allowing for two styles: *inline* and *reference*.
 
 Inline image syntax looks like this:
 
-    ![Alt text](/path/to/img.jpg)
+    ![Alt text](/path/to/assets/img.jpg)
 
-    ![Alt text](/path/to/img.jpg "Optional title")
+    ![Alt text](/path/to/assets/img.jpg "Optional title")
 
 That is:
 

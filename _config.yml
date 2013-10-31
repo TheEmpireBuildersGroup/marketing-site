@@ -11,7 +11,7 @@ pygments: true
 
 url: http://theempirebuildersgroup.com
 baseurl: http://theempirebuildersgroup.com
-# jekyll serve --watch --baseurl=
+assets: /assets
 relative_permalinks: false
 permalink: pretty
 

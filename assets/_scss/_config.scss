@@ -1,0 +1,151 @@
+/* ------------------------------ Configurations
+--------------------------------------------- */
+
+/* ---------- Color Variables ----------------- */
+$red:#4f1515;
+$red2:#460e0f;
+$brown:#3a211d;
+$tan:#deceb2;
+$tan2:#cfbea3;
+$tan3:#e8e5dc;
+$blue:#0e6d97;
+$gold1:#cfb539;
+$gold2:#cba133;
+$gold3:#b18000;
+$gold4:#e9bb1e;
+$gray:#474748;
+
+$white:#fff;
+$black:#000;
+
+$primary:$gold2;
+$secondary:$blue;
+
+.gold { color:$gold3;}
+.brown { color:$brown; }
+.gray { color:$gray; }
+
+/* ---------- Breakpoints ----------------- */
+@mixin breakpoint($point) {
+    @if $point == lg { @media only screen and (min-width : 1200px) { @content; } }
+    @else if $point == md { @media only screen  and (min-width : 992px) { @content; } }
+    @else if $point == sm { @media only screen  and (min-width : 768px) { @content; } }
+    @else if $point == xs { @media only screen  and (max-width : 768px) { @content; } }
+
+    @else if $point == md-below { @media only screen  and (max-width : 1200px) { @content; } }
+    @else if $point == sm-below { @media only screen  and (max-width : 992px) { @content; } }
+
+    @else if $point == tablet { @media only screen and (min-width : 768px) and (max-width : 1024px) { @content; } }
+    @else if $point == land-tablet { @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { @content; } }
+    @else if $point == port-tablet { @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { @content; } }
+    @else if $point == iphone { @media only screen and (min-width : 320px) and (max-width : 480px)  { @content; } }
+}
+
+/* ---------- MIXINS ----------------- */
+@mixin text-shadow($left, $top, $size, $color) { text-shadow: $left $top $size $color; }
+@mixin border-radius($size) { -moz-border-radius: $size; -webkit-border-radius: $size; border-radius: $size; }
+@mixin box-shadow($size) { -moz-box-shadow: $size; -webkit-box-shadow: $size; box-shadow: $size; }
+@mixin transform($param) { -moz-transform: $param; -webkit-transform: $param; -o-transform: $param; -ms-transform: $param; transform: $param; }
+@mixin background-clip($param) { background-clip: $param; -webkit-background-clip: $param; -moz-background-clip: $param; }
+@mixin background-size($param) { -webkit-background-size: $param; -moz-background-size: $param; -o-background-size: $param; background-size: $param;}
+@mixin filter($param) { -webkit-filter:$param; -moz-filter:$param; -ms-filter:$param; -o-filter:$param; filter:$param; }
+@mixin columns($count, $gap) { -moz-column-count: $count; -moz-column-gap: $gap; -webkit-column-count: $count; -webkit-column-gap: $gap; column-count: $count; column-gap: $gap; }
+@mixin columnbreakinside($param) { -webkit-column-break-inside:$param; -moz-column-break-inside:$param; -o-column-break-inside:$param; -ms-column-break-inside:$param; column-break-inside:$param; }
+@mixin columnbreakafter($param) {
+    break-after: $param;
+    -webkit-column-break-after: $param; 
+    -moz-column-break-after: $param; 
+    -ms-column-break-after: $param; 
+    -o-column-break-after: $param; 
+}
+
+@mixin background-linear-gradient($startPoint, $startColor, $startInterval, $endColor, $endInterval){
+	background-color:$startColor;
+	background-image: -webkit-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: -moz-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: -ms-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: -o-linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+	background-image: linear-gradient($startPoint, $startColor $startInterval, $endColor $endInterval);
+}
+
+/* ---------- Transitions & Animations ----------------- */
+@mixin transition($param) { -moz-transition: $param; -webkit-transition: $param; -o-transition: $param; -ms-transition: $param; transition: $param; }
+@mixin transform($type) { transform: $type; -ms-transform: $type; /* IE 9 */ -webkit-transform: $type; /* Safari and Chrome */}
+
+/* -------------------------- Crazy Cicle Setup --------------------------- */
+
+@mixin build-circle($degree, $radius){ -webkit-transform: rotate($degree) translate($radius) rotate(-$degree); -moz-transform: rotate($degree) translate($radius) rotate(-$degree); -ms-transform: rotate($degree) translate($radius) rotate(-$degree); -o-transform: rotate($degree) translate($radius) rotate(-$degree); transform: rotate($degree) translate($radius) rotate(-$degree); }
+
+.radius {
+    $icon-circle:2em;
+    margin:3em auto;
+    position:relative;
+    height:311px;
+    width:311px;
+    padding:130px 0 0 128px;
+
+    .point, .center {
+        display: block;
+        position: absolute;
+        width: $icon-circle;
+        height: $icon-circle;
+        font-size: 2.8rem;
+        padding: 0;
+        line-height:1.8em;
+        background-color: #fff;    
+        text-align: center;
+        color: $gold4;
+        text-decoration: none; 
+
+        &:hover {
+            background-color: $gold4;
+            color:#fff;
+            span {
+                display:block;
+                color:$gold4;
+            }
+        }
+
+        span {
+            display: none;
+            text-align: center;
+            line-height: 1.25em;
+            position: absolute;
+            margin-left:$icon-circle - ($icon-circle * 2);
+            width: 7em;
+            text-transform:uppercase;
+            font-weight:700;
+            letter-spacing:0.04em;
+            
+            &.up-top { bottom: $icon-circle + 1.5; vertical-align:top; }
+            &.down-low { top: $icon-circle + 1.5; }
+        }
+
+    }
+
+}
+
+.deg0 { @include build-circle(0deg, 150px); }
+.deg15 { @include build-circle(15deg, 150px); }
+.deg30 { @include build-circle(30deg, 150px); }
+.deg45 { @include build-circle(45deg, 150px); }
+.deg60 { @include build-circle(60deg, 150px); }
+.deg75 { @include build-circle(75deg, 150px); }
+.deg90 { @include build-circle(90deg, 150px); }
+.deg105 { @include build-circle(105deg, 150px); }
+.deg120 { @include build-circle(120deg, 150px); }
+.deg135 { @include build-circle(135deg, 150px); }
+.deg150 { @include build-circle(150deg, 150px); }
+.deg165 { @include build-circle(165deg, 150px); }
+.deg180 { @include build-circle(180deg, 150px); }
+.deg195 { @include build-circle(195deg, 150px); }
+.deg210 { @include build-circle(210deg, 150px); }
+.deg225 { @include build-circle(225deg, 150px); }
+.deg240 { @include build-circle(240deg, 150px); }
+.deg255 { @include build-circle(255deg, 150px); }
+.deg270 { @include build-circle(270deg, 150px); }
+.deg285 { @include build-circle(285deg, 150px); }
+.deg300 { @include build-circle(300deg, 150px); }
+.deg315 { @include build-circle(315deg, 150px); }
+.deg330 { @include build-circle(330deg, 150px); }
+.deg345 { @include build-circle(345deg, 150px); }
