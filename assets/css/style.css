@@ -273,6 +273,12 @@ h6, .h6 {
 .header-type {
   font-family: "Libre Baskerville", serif; }
 
+.bold {
+  font-weight: 600; }
+
+.tracked {
+  letter-spacing: 0.03em; }
+
 .large-quote {
   font-size: 5.5rem;
   line-height: 0;
@@ -588,7 +594,7 @@ header, footer.footer {
   header h4, footer.footer h4 {
     font-size: 1.6rem;
     text-shadow: -1px 1px 2px rgba(255, 255, 255, 0.6);
-    padding: 0.6em 0 1em 0;
+    padding: 0.25em 0 0.5em 0;
     margin: 0; }
   header a, footer.footer a {
     color: #4b453c;
@@ -601,8 +607,7 @@ footer.footer {
   padding: 0.6em 1em; }
   footer.footer img {
     top: -3.5em;
-    z-index: -1;
-    right: 2%; }
+    z-index: -1; }
 
 /* ---------- Hero image ----------------- */
 .hero-image {
@@ -833,6 +838,31 @@ nav.navbar {
         nav.navbar ul.nav li {
           padding: 0 0.3em; } }
 
+.bg-tech {
+  background: transparent url("../img/industry_ops.png") 50% 50% no-repeat; }
+
+.bg-strategic {
+  background: transparent url("../img/industry_usc.png") 50% 50% no-repeat; }
+
+.round {
+  border-radius: 100%; }
+
+.border-3-gold {
+  border: 3px solid #e9bb1e; }
+
+.nostyle {
+  border: 0;
+  box-shadow: none;
+  text-shadow: 0 0 0 transparent; }
+
+.texture-1 {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/noisy.png");
+  background-color: #cfbea3; }
+
+.texture-2 {
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/texturetastic_gray.png");
+  background-color: white; }
+
 /* ----------------------- Overrides 
 --------------------------------- */
 .btn-primary, .btn-primary:hover {
@@ -873,7 +903,7 @@ html {
   line-height: 1em; }
 
 body {
-  background: #cfbea3 url("../img/philly-map.jpg") repeat 40% top; }
+  background: #cfbea3; }
 
 .main.container img {
   max-width: 100%; }
@@ -933,7 +963,6 @@ pre {
   text-transform: uppercase; }
 
 .main {
-  background: white url("../img/concrete_wall_2.jpg") repeat 0 0;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -1068,19 +1097,3 @@ img.full-width {
     margin: 0; }
 
 /* --------------------- INTEGRATION OF RADIUS ------------------- */
-.bg-tech {
-  background: transparent url("../img/industry_ops.png") 50% 50% no-repeat; }
-
-.bg-strategic {
-  background: transparent url("../img/industry_usc.png") 50% 50% no-repeat; }
-
-.round {
-  border-radius: 100%; }
-
-.border-3-gold {
-  border: 3px solid #e9bb1e; }
-
-.nostyle {
-  border: 0;
-  box-shadow: none;
-  text-shadow: 0 0 0 transparent; }

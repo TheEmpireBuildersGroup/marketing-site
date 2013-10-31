@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     {%include head.html%}
-    <body class="{{ page.index }} default-layout">
+    <body class="{{ page.index }} default-layout texture-1">
         {% include header.html %}
-        <div class="container main">
+        <div class="container main texture-2">
 
             {% if page.hero_image %}
                 <div class="hero-image row" style="background-image:url('{{site.baseurl}}/assets/img/{{page.hero_image}}'); height:{{page.hero_image_height}};">
