@@ -91,6 +91,8 @@ footer.footer {
     }
     
     body.contact & {
+        top:0;
+        background-position:90% top;
         h1,h2,h3,h4,h5,h6 {
             margin-left:-3em;
             &.secondary {
@@ -100,12 +102,12 @@ footer.footer {
         }
     }
     
-    h1, h2, h3, h4, h5 {
+    h1, h2, h3, h4, h5, h6 {
         color:$white;
-        text-shadow:-2px 4px 2px rgba($black,.5);
+        text-shadow:-2px 3px 2px rgba($black,.75);
         padding:0 0.5em; 
         margin: 0;
-        top: 42%;
+        top: 40%;
         position: relative;
 
         &.secondary {

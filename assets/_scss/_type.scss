@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: $header-font;
     font-weight: 500;
     line-height: 1.3em;
+    margin-bottom:0.3em;
 //    margin:0.25em 10% 0.25em 10%;
     text-shadow: -2px 3px 1px rgba(202, 192, 164, 0.75);
 //    color:#3a211d;
@@ -26,11 +27,12 @@ h2, .h2 { font-size:3.4rem; font-style:italic; }
 h3, .h3 { font-size:3rem; font-style:italic; }
 h4, .h4 { font-size:2.3rem; }
 h5, .h5 { font-size:2.0rem; line-height: 1.6em; }
-h6, .h6 { font-size:1.8rem; }
+h6, .h6 { font-size:1.8rem; line-height: 1.6em; }
 
 .base-type { font-family:$base-font }
 .base-type-size { font-size:1.6rem; line-height:1.5em; }
 .small-type { font-size: 0.8em; line-height: 1.6em; }
+.header-type { font-family:$header-font; }
 
 .large-quote {
     font-size:5.5rem; 

@@ -232,6 +232,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, #directions .panel-title, .h3, .h4, .h5, .h6 {
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
   line-height: 1.3em;
+  margin-bottom: 0.3em;
   text-shadow: -2px 3px 1px rgba(202, 192, 164, 0.75);
   text-decoration: none; }
 
@@ -255,7 +256,8 @@ h5, .h5 {
   line-height: 1.6em; }
 
 h6, .h6 {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  line-height: 1.6em; }
 
 .base-type, body {
   font-family: "Open Sans", sans-serif; }
@@ -267,6 +269,9 @@ h6, .h6 {
 .small-type {
   font-size: 0.8em;
   line-height: 1.6em; }
+
+.header-type {
+  font-family: "Libre Baskerville", serif; }
 
 .large-quote {
   font-size: 5.5rem;
@@ -453,21 +458,39 @@ p {
 .center {
   margin: auto; }
 
+.margin-b-1em {
+  margin-bottom: 1em; }
+
+.margin-b-2em {
+  margin-bottom: 2em; }
+
+.margin-t-b-2em {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.margin-t-b-4em {
+  margin-top: 4em;
+  margin-bottom: 4em; }
+
+.margin-l-r-2em {
+  margin-left: 2em;
+  margin-right: 2em; }
+
 .three-quarters, .half, .third, .fourth {
   display: inline-block;
   vertical-align: top; }
   .three-quarters:last-child, .half:last-child, .third:last-child, .fourth:last-child {
     margin-right: 0; }
   .three-quarters img, .half img, .third img, .fourth img {
-    width: 100%;
-    margin: 0; }
+    width: 100%; }
     .three-quarters img.img, .half img.img, .third img.img, .fourth img.img {
       width: auto; }
 
 @media only screen and (min-width: 768px) {
   .three-quarters {
-    width: 80%;
-    margin: auto; } }
+    width: 80%; }
+    .three-quarters:not(h1, h2, h3, h4, h5, h6) {
+      margin: auto; } }
 
 @media only screen and (min-width: 768px) {
   .half {
@@ -551,10 +574,6 @@ p {
   .grid-circles:first-of-type, .grid-circles:last-of-type {
     height: 150px;
     width: 150px; }
-
-.nostyle {
-  border: 0;
-  box-shadow: none; }
 
 .hide-hover {
   display: none; }
@@ -641,34 +660,37 @@ footer.footer {
       font-size: 2.2rem; }
     body.about .hero-image h5 {
       font-size: 1.5rem; } }
-  body.contact .hero-image h1, body.contact .hero-image h2, body.contact .hero-image h3, body.contact .hero-image h4, body.contact .hero-image h5, body.contact .hero-image h6 {
-    margin-left: -3em; }
-    body.contact .hero-image h1.secondary, body.contact .hero-image h2.secondary, body.contact .hero-image h3.secondary, body.contact .hero-image h4.secondary, body.contact .hero-image h5.secondary, body.contact .hero-image h6.secondary {
-      position: relative;
-      margin-left: -3.5em; }
-  .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5 {
+  body.contact .hero-image {
+    top: 0;
+    background-position: 90% top; }
+    body.contact .hero-image h1, body.contact .hero-image h2, body.contact .hero-image h3, body.contact .hero-image h4, body.contact .hero-image h5, body.contact .hero-image h6 {
+      margin-left: -3em; }
+      body.contact .hero-image h1.secondary, body.contact .hero-image h2.secondary, body.contact .hero-image h3.secondary, body.contact .hero-image h4.secondary, body.contact .hero-image h5.secondary, body.contact .hero-image h6.secondary {
+        position: relative;
+        margin-left: -3.5em; }
+  .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5, .hero-image h6 {
     color: white;
-    text-shadow: -2px 4px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: -2px 3px 2px rgba(0, 0, 0, 0.75);
     padding: 0 0.5em;
     margin: 0;
-    top: 42%;
+    top: 40%;
     position: relative; }
-    .hero-image h1.secondary, .hero-image h2.secondary, .hero-image h3.secondary, .hero-image h4.secondary, .hero-image h5.secondary {
+    .hero-image h1.secondary, .hero-image h2.secondary, .hero-image h3.secondary, .hero-image h4.secondary, .hero-image h5.secondary, .hero-image h6.secondary {
       position: absolute;
       bottom: 0;
       width: 100%; }
     @media only screen and (max-width: 1200px) {
-      .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5 {
+      .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5, .hero-image h6 {
         font-size: 2.3em; }
-        .hero-image h1.secondary, .hero-image h2.secondary, .hero-image h3.secondary, .hero-image h4.secondary, .hero-image h5.secondary {
+        .hero-image h1.secondary, .hero-image h2.secondary, .hero-image h3.secondary, .hero-image h4.secondary, .hero-image h5.secondary, .hero-image h6.secondary {
           font-size: 1.2em; } }
     @media only screen and (max-width: 992px) {
-      .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5 {
+      .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5, .hero-image h6 {
         font-size: 2em; }
-        .hero-image h1.secondary, .hero-image h2.secondary, .hero-image h3.secondary, .hero-image h4.secondary, .hero-image h5.secondary {
+        .hero-image h1.secondary, .hero-image h2.secondary, .hero-image h3.secondary, .hero-image h4.secondary, .hero-image h5.secondary, .hero-image h6.secondary {
           font-size: 1em; } }
     @media only screen and (min-width: 768px) {
-      .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5 {
+      .hero-image h1, .hero-image h2, .hero-image h3, .hero-image h4, .hero-image h5, .hero-image h6 {
         padding: 0 0em; } }
   .secondary-layout .hero-image {
     height: 300px;
@@ -851,10 +873,15 @@ html {
   line-height: 1em; }
 
 body {
-  background: #cfbea3 url("../img/philly-map.jpg") repeat 40% 25%; }
+  background: #cfbea3 url("../img/philly-map.jpg") repeat 40% top; }
 
 .main.container img {
   max-width: 100%; }
+
+.btn-link {
+  color: #b18000; }
+  .btn-link:hover {
+    color: #e9bb1e; }
 
 ul {
   font-size: 1.5rem;
@@ -878,7 +905,7 @@ hr {
   clear: both; }
 
 .hr-vert {
-  background: transparent url("https://s3.amazonaws.com/foryo.us/random/hramp.png") no-repeat center center;
+  background: transparent url("../img/hr-amp.png") no-repeat center center;
   padding: 0 3em;
   clear: both;
   height: 6em;
@@ -940,6 +967,19 @@ img.full-width {
 .img-responsive {
   margin: 2em auto; }
 
+.animate-nudge-hover {
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+  .animate-nudge-hover:hover {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    /* IE 9 */
+    -webkit-transform: rotate(5deg);
+    /* Safari and Chrome */ }
+
 #directions {
   padding-bottom: 1em; }
   #directions .half, #directions .third, #directions .fourth {
@@ -950,18 +990,6 @@ img.full-width {
       list-style: disc; }
   #directions a:hover {
     text-decoration: none; }
-  #directions img {
-    -moz-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out; }
-    #directions img:hover {
-      transform: rotate(5deg);
-      -ms-transform: rotate(5deg);
-      /* IE 9 */
-      -webkit-transform: rotate(5deg);
-      /* Safari and Chrome */ }
   #directions .panel {
     background: none;
     box-shadow: none;
@@ -1039,109 +1067,20 @@ img.full-width {
   #social a img {
     margin: 0; }
 
-/* --------------------------- CARD ANIMATION ------------------------ */
-/* --------------------------------- Where the code starts -- */
-.spacer {
-  height: 100%;
-  display: block;
-  width: 100%;
-  clear: both;
-  background: red; }
-
-.translate-card, .card {
-  transition: all 0.3s ease-in-out 0.3s; }
-
-.bg-white {
-  background: #fff; }
-
-.card {
-  position: relative;
-  left: 50%;
-  top: 0;
-  float: left;
-  background: white;
-  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.65);
-  border-radius: 0em;
-  padding: 1em 0em 2em 0em;
-  width: 35%;
-  max-width: 35%;
-  -webkit-backface-visibility: hidden; }
-
-.card1 {
-  margin-left: -17.5%;
-  z-index: 7;
-  transform: rotateZ(-8deg);
-  -ms-transform: rotateZ(-8deg);
-  /* IE 9 */
-  -webkit-transform: rotateZ(-8deg);
-  /* Safari and Chrome */ }
-
-.card2 {
-  margin-left: -34%;
-  z-index: 8; }
-
-.card3 {
-  margin-left: -33%;
-  z-index: 9;
-  transform: rotateZ(4deg);
-  -ms-transform: rotateZ(4deg);
-  /* IE 9 */
-  -webkit-transform: rotateZ(4deg);
-  /* Safari and Chrome */ }
-
-.card4 {
-  margin-left: -30%;
-  z-index: 10;
-  transform: rotateZ(4deg);
-  -ms-transform: rotateZ(4deg);
-  /* IE 9 */
-  -webkit-transform: rotateZ(4deg);
-  /* Safari and Chrome */ }
-
-.card-container {
-  position: relative;
-  width: 90%;
-  margin: 4em auto; }
-
-.card-container-hover:hover .card,
-.card-container-hover.hover .card {
-  transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  /* IE 9 */
-  -webkit-transform: scale(0.95);
-  /* Safari and Chrome */
-  margin-left: -35%; }
-  .card-container-hover:hover .card:hover, .card-container-hover:hover .card.hover,
-  .card-container-hover.hover .card:hover,
-  .card-container-hover.hover .card.hover {
-    z-index: 11;
-    transform: scale(1);
-    -ms-transform: scale(1);
-    /* IE 9 */
-    -webkit-transform: scale(1);
-    /* Safari and Chrome */ }
-.card-container-hover:hover .card1,
-.card-container-hover.hover .card1 {
-  left: 30%; }
-.card-container-hover:hover .card2,
-.card-container-hover.hover .card2 {
-  left: 55%; }
-.card-container-hover:hover .card3,
-.card-container-hover.hover .card3 {
-  left: 80%; }
-.card-container-hover:hover .card4,
-.card-container-hover.hover .card4 {
-  left: 105%; }
-
 /* --------------------- INTEGRATION OF RADIUS ------------------- */
 .bg-tech {
-  background: transparent url("http://foryo.us.s3.amazonaws.com/random/industry_ops.png") 50% 50% no-repeat; }
+  background: transparent url("../img/industry_ops.png") 50% 50% no-repeat; }
 
 .bg-strategic {
-  background: transparent url("http://foryo.us.s3.amazonaws.com/random/industry_usc.png") 50% 50% no-repeat; }
+  background: transparent url("../img/industry_usc.png") 50% 50% no-repeat; }
 
 .round {
   border-radius: 100%; }
 
 .border-3-gold {
   border: 3px solid #e9bb1e; }
+
+.nostyle {
+  border: 0;
+  box-shadow: none;
+  text-shadow: 0 0 0 transparent; }

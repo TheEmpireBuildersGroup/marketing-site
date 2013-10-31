@@ -8,6 +8,11 @@
 .right { right:0; }
 .left-50 { left:50%; }
 .center { margin:auto; }
+.margin-b-1em { margin-bottom:1em; }
+.margin-b-2em { margin-bottom:2em; }
+.margin-t-b-2em { margin-top:2em; margin-bottom:2em; }
+.margin-t-b-4em { margin-top:4em; margin-bottom:4em; }
+.margin-l-r-2em { margin-left:2em; margin-right:2em; }
 
 .three-quarters, .half, .third, .fourth {
     display:inline-block;
@@ -18,7 +23,7 @@
     }        
     img { 
         width:100%; 
-        margin:0;
+        //margin:0;
         &.img {
             width:auto;
         }
@@ -27,7 +32,9 @@
 .three-quarters {
     @include breakpoint(sm){
         width:80%;
-        margin:auto;
+        &:not(h1, h2, h3, h4, h5, h6){
+            margin:auto;
+        }
     }        
 }
 .half {
@@ -135,11 +142,6 @@
         height:$hXw - 20px;
         width:$hXw - 20px;
     }
-}
-
-.nostyle {
-    border:0;
-    box-shadow: none;
 }
 
 .hide-hover {
