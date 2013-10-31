@@ -87,9 +87,21 @@ hr {
     padding:3rem 0 2rem 0;
     clear:both;
 }
-
+.hr-vert {
+    background:transparent url('https://s3.amazonaws.com/foryo.us/random/hramp.png') no-repeat center center;
+    padding:0 3em;
+    clear:both;
+    height:6em; 
+    margin:auto; 
+    display:inline-block; 
+    vertical-align:middle;
+    @include breakpoint(sm) {
+        height:420px; 
+    }
+}
 .hr-30 { background:none; padding:0; height:0; width:30%; border-bottom:solid 1px rgba($brown, 0.2);}
 
+.no-margin {margin:0;}
 
 pre {
     clear:both;
@@ -344,3 +356,12 @@ $fourth:35%;
         left:105%;
     }   
 }
+
+/* --------------------- INTEGRATION OF RADIUS ------------------- */
+//.float-left { display:inline-block; vertical-align:top; }
+//.half{ width:40%; }
+.bg-tech { background:transparent url('http://foryo.us.s3.amazonaws.com/random/industry_ops.png') 50% 50% no-repeat; }
+.bg-strategic { background:transparent url('http://foryo.us.s3.amazonaws.com/random/industry_usc.png') 50% 50% no-repeat; }
+//.full-width { width:100%; }
+.round { border-radius: 100%;}
+.border-3-gold { border: 3px solid $gold4; }

@@ -4,4 +4,5 @@ ebg
 Running locally
 ===============
 $ jekyll serve --watch --baseurl=
-$ sass --watch css
+
+$ sass --watch _scss:css

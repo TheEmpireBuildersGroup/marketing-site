@@ -27,6 +27,8 @@ header {
 footer.footer {
     @extend header;
     padding:0.6em 1em;
+    
+    img { top: -3.5em; z-index: -1; right:2%; }
 }
 
 /* ---------- Hero image ----------------- */
@@ -40,17 +42,52 @@ footer.footer {
     position:relative;
     
     body.about & {
+        .intro {
+            left: 2rem;          
+            &.secondary {
+                text-align:left;
+                bottom:inherit;
+                margin-top:1.4em;
+                h4 { margin-top:1em; }
+            }            
+        }
+                
         h1 {
-            font-size:3.2rem;            
+            font-size:2.4rem;
+            width: 13em;
+            text-align: left;
+            top: 1em;
+        }        
+        h4 { font-size:1.8rem; }
+        h5 { font-size:1.4rem; }
+
+    @include breakpoint(xs) {
+        background:$red;
+        background-repeat:no-repeat;
+        background-position:75% top;
+        @include background-size(525.5px 277px);
+        height:580px;
+        .intro {
+            top: 300px;            
+            left: 2rem;          
+            &.secondary {
+                text-align:left;
+                bottom:inherit;
+                margin-top:6em;
+            }            
         }
-        
-        h4 { 
-            font-size:2.2rem;
+    }    
+    @include breakpoint(md) {
+        .intro {
+            left: 3.6rem;          
+            &.secondary {
+                margin-top:4em;
+            }            
         }
-        
-        h5 { 
-            font-size:1.6rem;
-        }
+        h1 { font-size:3.2rem; }        
+        h4 { font-size:2.2rem; }        
+        h5 { font-size:1.5rem; }
+    }
     }
     
     body.contact & {
@@ -123,9 +160,6 @@ footer.footer {
     }
 }
 
-body.about h1{
-    top:2.5em;
-}
 body.secondary-layout {
     .intro.secondary{
         color:$white;

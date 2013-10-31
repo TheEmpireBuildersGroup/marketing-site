@@ -1,5 +1,13 @@
 /* ------------------- Grid and page Layout
 ----------------------------------------- */
+.absolute { position:absolute; }
+.relative { position:relative; }
+.bottom { bottom:0; }
+.top { top:0; }
+.left { left:0; }
+.right { right:0; }
+.left-50 { left:50%; }
+.center { margin:auto; }
 
 .three-quarters, .half, .third, .fourth {
     display:inline-block;
@@ -132,4 +140,11 @@
 .nostyle {
     border:0;
     box-shadow: none;
+}
+
+.hide-hover {
+    display:none;
+    &:hover {
+        display:block;
+    }
 }

@@ -12,6 +12,7 @@ $blue:#0e6d97;
 $gold1:#cfb539;
 $gold2:#cba133;
 $gold3:#b18000;
+$gold4:#e9bb1e;
 $gray:#474748;
 
 $white:#fff;
@@ -70,3 +71,81 @@ $secondary:$blue;
 /* ---------- Transitions & Animations ----------------- */
 @mixin transition($param) { -moz-transition: $param; -webkit-transition: $param; -o-transition: $param; -ms-transition: $param; transition: $param; }
 @mixin transform($type) { transform: $type; -ms-transform: $type; /* IE 9 */ -webkit-transform: $type; /* Safari and Chrome */}
+
+/* -------------------------- Crazy Cicle Setup --------------------------- */
+
+@mixin build-circle($degree, $radius){ -webkit-transform: rotate($degree) translate($radius) rotate(-$degree); -moz-transform: rotate($degree) translate($radius) rotate(-$degree); -ms-transform: rotate($degree) translate($radius) rotate(-$degree); -o-transform: rotate($degree) translate($radius) rotate(-$degree); transform: rotate($degree) translate($radius) rotate(-$degree); }
+
+.radius {
+    $icon-circle:2em;
+    margin:3em auto;
+    position:relative;
+    height:311px;
+    width:311px;
+    padding:130px 0 0 128px;
+
+    .point, .center {
+        display: block;
+        position: absolute;
+        width: $icon-circle;
+        height: $icon-circle;
+        font-size: 2.8rem;
+        padding: 0;
+        line-height:1.8em;
+        background-color: #fff;    
+        text-align: center;
+        color: $gold4;
+        text-decoration: none; 
+
+        &:hover {
+            background-color: $gold4;
+            color:#fff;
+            span {
+                display:block;
+                color:$gold4;
+            }
+        }
+
+        span {
+            display: none;
+            text-align: center;
+            line-height: 1.25em;
+            position: absolute;
+            margin-left:$icon-circle - ($icon-circle * 2);
+            width: 7em;
+            text-transform:uppercase;
+            font-weight:700;
+            letter-spacing:0.04em;
+            
+            &.up-top { bottom: $icon-circle + 1.5; vertical-align:top; }
+            &.down-low { top: $icon-circle + 1.5; }
+        }
+
+    }
+
+}
+
+.deg0 { @include build-circle(0deg, 150px); }
+.deg15 { @include build-circle(15deg, 150px); }
+.deg30 { @include build-circle(30deg, 150px); }
+.deg45 { @include build-circle(45deg, 150px); }
+.deg60 { @include build-circle(60deg, 150px); }
+.deg75 { @include build-circle(75deg, 150px); }
+.deg90 { @include build-circle(90deg, 150px); }
+.deg105 { @include build-circle(105deg, 150px); }
+.deg120 { @include build-circle(120deg, 150px); }
+.deg135 { @include build-circle(135deg, 150px); }
+.deg150 { @include build-circle(150deg, 150px); }
+.deg165 { @include build-circle(165deg, 150px); }
+.deg180 { @include build-circle(180deg, 150px); }
+.deg195 { @include build-circle(195deg, 150px); }
+.deg210 { @include build-circle(210deg, 150px); }
+.deg225 { @include build-circle(225deg, 150px); }
+.deg240 { @include build-circle(240deg, 150px); }
+.deg255 { @include build-circle(255deg, 150px); }
+.deg270 { @include build-circle(270deg, 150px); }
+.deg285 { @include build-circle(285deg, 150px); }
+.deg300 { @include build-circle(300deg, 150px); }
+.deg315 { @include build-circle(315deg, 150px); }
+.deg330 { @include build-circle(330deg, 150px); }
+.deg345 { @include build-circle(345deg, 150px); }
