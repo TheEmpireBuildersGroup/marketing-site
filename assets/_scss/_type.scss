@@ -34,6 +34,9 @@ h6, .h6 { font-size:1.8rem; line-height: 1.6em; }
 .small-type { font-size: 0.8em; line-height: 1.6em; }
 .header-type { font-family:$header-font; }
 
+.bold { font-weight:600; }
+.tracked { letter-spacing:0.03em; }
+
 .large-quote {
     font-size:5.5rem; 
     line-height:0;

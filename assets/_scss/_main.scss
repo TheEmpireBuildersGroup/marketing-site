@@ -1,3 +1,22 @@
+.bg-tech { background:transparent url('../img/industry_ops.png') 50% 50% no-repeat; }
+.bg-strategic { background:transparent url('../img/industry_usc.png') 50% 50% no-repeat; }
+//.full-width { width:100%; }
+.round { border-radius: 100%;}
+.border-3-gold { border: 3px solid $gold4; }
+
+.nostyle {
+    border:0;
+    box-shadow: none;
+    text-shadow: 0 0 0 transparent;
+}
+
+.texture-1 {
+@include texture($tan2, 55, 1); // color, texture-number, 0=inverted or 1=normal
+}
+
+.texture-2 {
+@include texture($white, 6, 0); // color, texture-number, 0=inverted or 1=normal
+}
 /* ----------------------- Overrides 
 --------------------------------- */
 .btn-primary {
@@ -50,7 +69,8 @@ html {
 
 body {
     @extend .base-type, .base-type-size;
-    background:$tan2 url('../img/philly-map.jpg') repeat 40% top;
+//    background:$tan2 url('../img/philly-map.jpg') repeat 40% top;
+    background:$tan2;
 }
 
 .main {
@@ -118,7 +138,7 @@ pre {
 }
 
 .main {
-    background:$white url('../img/concrete_wall_2.jpg') repeat 0 0;
+//    background:$white url('../img/concrete_wall_2.jpg') repeat 0 0;
     @include border-radius(8px);    
     @include background-clip(padding-box);
     -moz-background-clip: padding;
@@ -360,16 +380,3 @@ img.full-width {
 //}
 
 /* --------------------- INTEGRATION OF RADIUS ------------------- */
-//.float-left { display:inline-block; vertical-align:top; }
-//.half{ width:40%; }
-.bg-tech { background:transparent url('../img/industry_ops.png') 50% 50% no-repeat; }
-.bg-strategic { background:transparent url('../img/industry_usc.png') 50% 50% no-repeat; }
-//.full-width { width:100%; }
-.round { border-radius: 100%;}
-.border-3-gold { border: 3px solid $gold4; }
-
-.nostyle {
-    border:0;
-    box-shadow: none;
-    text-shadow: 0 0 0 transparent;
-}

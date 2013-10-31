@@ -9,7 +9,7 @@ header {
     h4 {
         font-size:1.6rem;
         text-shadow: -1px 1px 2px rgba($white, 0.6);
-        padding:0.6em 0 1em 0;
+        padding:0.25em 0 0.5em 0;
         margin:0;
     }
     
@@ -28,7 +28,7 @@ footer.footer {
     @extend header;
     padding:0.6em 1em;
     
-    img { top: -3.5em; z-index: -1; right:2%; }
+    img { top: -3.5em; z-index: -1; }
 }
 
 /* ---------- Hero image ----------------- */
