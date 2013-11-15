@@ -3,3 +3,6 @@ _site/
 *.scssc
 css
 .sass-cache
+Guardfile
+
+*.scssc
