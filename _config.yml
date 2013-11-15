@@ -9,8 +9,8 @@ markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 pygments: true
 
-url: http://theempirebuildersgroup.github.io/marketing-site
-baseurl: http://theempirebuildersgroup.github.io/marketing-site
+url: http://theempirebuildersgroup.com
+baseurl: http://theempirebuildersgroup.com
 assets: /assets
 relative_permalinks: false
 permalink: pretty
