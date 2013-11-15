@@ -19,5 +19,3 @@ Business moves much faster in the digital age and people expect solutions to be 
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Our Services</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hands.png"><h4>Our Clients</h4></a></div>
 </div>
-
-<! -- this is on the EBG repo -->
