@@ -21,9 +21,14 @@ $black:#000;
 $primary:$gold2;
 $secondary:$blue;
 
+.white { color:$white;}
+.hvr-white:hover { color:$white; }
 .gold { color:$gold3;}
+.hvr-gold:hover { color:$gold4; }
 .brown { color:$brown; }
+.hvr-brown:hover { color:$brown; }
 .gray { color:$gray; }
+.hvr-gray:hover { color:$gray; }
 
 /* ---------- Breakpoints ----------------- */
 @mixin breakpoint($point) {
