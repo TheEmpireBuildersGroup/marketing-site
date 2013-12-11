@@ -1,3 +1,22 @@
+.bg-tech { background:transparent url('../img/industry_ops.png') 50% 50% no-repeat; }
+.bg-strategic { background:transparent url('../img/industry_usc.png') 50% 50% no-repeat; }
+//.full-width { width:100%; }
+.round { border-radius: 100%;}
+.border-3-gold { border: 3px solid $gold4; }
+
+.nostyle {
+    border:0;
+    box-shadow: none;
+    text-shadow: 0 0 0 transparent;
+}
+
+.texture-1 {
+@include texture($tan2, 55, 1); // color, texture-number, 0=inverted or 1=normal
+}
+
+.texture-2 {
+@include texture($white, 6, 0); // color, texture-number, 0=inverted or 1=normal
+}
 /* ----------------------- Overrides 
 --------------------------------- */
 .btn-primary {
@@ -50,7 +69,8 @@ html {
 
 body {
     @extend .base-type, .base-type-size;
-    background:$tan2 url('../img/philly-map.jpg') repeat 40% 25%;
+//    background:$tan2 url('../img/philly-map.jpg') repeat 40% top;
+    background:$tan2;
 }
 
 .main {
@@ -58,6 +78,12 @@ body {
         img {
             max-width:100%;
         }
+    }
+}
+
+.btn-link { color:$gold3;
+    &:hover {
+        color:$gold4;
     }
 }
 
@@ -88,7 +114,7 @@ hr {
     clear:both;
 }
 .hr-vert {
-    background:transparent url('https://s3.amazonaws.com/foryo.us/random/hramp.png') no-repeat center center;
+    background:transparent url('../img/hr-amp.png') no-repeat center center;
     padding:0 3em;
     clear:both;
     height:6em; 
@@ -112,7 +138,7 @@ pre {
 }
 
 .main {
-    background:$white url('../img/concrete_wall_2.jpg') repeat 0 0;
+//    background:$white url('../img/concrete_wall_2.jpg') repeat 0 0;
     @include border-radius(8px);    
     @include background-clip(padding-box);
     -moz-background-clip: padding;
@@ -147,6 +173,13 @@ img.full-width {
     margin:2em auto;
 }
 
+.animate-nudge-hover {
+    @include transition(all 0.3s ease-out);
+    &:hover{
+        @include transform(rotate(5deg));
+    }
+}
+
 #directions {
     .half, .third, .fourth {
         text-align:left;
@@ -160,17 +193,6 @@ img.full-width {
     padding-bottom:1em;
 
     a:hover {text-decoration:none;}
-    
-    img {
-        @include transition(all 0.3s ease-out);
-        &:hover{
-            @include transform(rotate(5deg));
-        }
-    }
-    
-//    .fourth {
-//         h4 { font-size:1.2em; }
-//    }
         
     .panel {
         background:none;
@@ -270,98 +292,91 @@ img.full-width {
     }
 }
 
-/* --------------------------- CARD ANIMATION ------------------------ */
-
-$fourth:35%;
-
-/* --------------------------------- Where the code starts -- */
-
-.spacer {height:100%; display:block; width:100%; clear:both; background:red;}
-
-.translate-card { transition: all 0.3s ease-in-out 0.3s; }
-
-.bg-white {background:#fff;}
-
-.card {
-    position:relative;
-    left:50%;
-    top:0;
-    float:left;
-    background: $white;
-    box-shadow: 1px 1px 7px rgba(0,0,0,.65);
-    border-radius:0em;
-    padding:1em 0em 2em 0em;
-    width:$fourth;
-    max-width:$fourth;
-    -webkit-backface-visibility: hidden;
-    @extend .translate-card;
-}
-
-.card1 {
-    margin-left:-($fourth/2);
-    z-index:7;
-  @include transform(rotateZ(-8deg));
-}
-.card2 {
-    margin-left:-($fourth) + 1;
-    z-index:8;
-}
-.card3 {
-    margin-left:-($fourth) + 2;
-    z-index:9;
-  @include transform(rotateZ(4deg));
-}
-.card4 {
-    margin-left:-($fourth) + 5;
-    z-index:10;
-  @include transform(rotateZ(4deg));
-}
-
-.card-container {
-    position:relative;
-    width: 90%;
-//  background:gray;
-//  height:40em;
-    margin:4em auto;
-}
-
-.card-container-hover:hover,
-.card-container-hover.hover {
-    .card {
-        @include transform(scale(0.95));
-        margin-left:-$fourth;
-        > * {
-//           opacity:0.75;
-        }
-        &:hover,
-        &.hover {
-            z-index:11;
-            @include transform(scale(1));
-          > * {
-//            opacity:1;
-          }
-        }
-    }
-    .card1 {
-//        @include transform( rotateZ(0deg) scale(0.95));
-        left:30%;
-    }
-    .card2 {
-        left:55%;  
-    }
-    .card3 {
-         left:80%;
-    }
-    .card4 {
-        left:105%;
-    }   
-}
+///* --------------------------- CARD ANIMATION ------------------------ */
+//
+//$fourth:35%;
+//
+///* --------------------------------- Where the code starts -- */
+//
+//.spacer {height:100%; display:block; width:100%; clear:both; background:red;}
+//
+//.translate-card { transition: all 0.3s ease-in-out 0.3s; }
+//
+//.bg-white {background:#fff;}
+//
+//.card {
+//    position:relative;
+//    left:50%;
+//    top:0;
+//    float:left;
+//    background: $white;
+//    box-shadow: 1px 1px 7px rgba(0,0,0,.65);
+//    border-radius:0em;
+//    padding:1em 0em 2em 0em;
+//    width:$fourth;
+//    max-width:$fourth;
+//    -webkit-backface-visibility: hidden;
+//    @extend .translate-card;
+//}
+//
+//.card1 {
+//    margin-left:-($fourth/2);
+//    z-index:7;
+//  @include transform(rotateZ(-8deg));
+//}
+//.card2 {
+//    margin-left:-($fourth) + 1;
+//    z-index:8;
+//}
+//.card3 {
+//    margin-left:-($fourth) + 2;
+//    z-index:9;
+//  @include transform(rotateZ(4deg));
+//}
+//.card4 {
+//    margin-left:-($fourth) + 5;
+//    z-index:10;
+//  @include transform(rotateZ(4deg));
+//}
+//
+//.card-container {
+//    position:relative;
+//    width: 90%;
+////  background:gray;
+////  height:40em;
+//    margin:4em auto;
+//}
+//
+//.card-container-hover:hover,
+//.card-container-hover.hover {
+//    .card {
+//        @include transform(scale(0.95));
+//        margin-left:-$fourth;
+//        > * {
+////           opacity:0.75;
+//        }
+//        &:hover,
+//        &.hover {
+//            z-index:11;
+//            @include transform(scale(1));
+//          > * {
+////            opacity:1;
+//          }
+//        }
+//    }
+//    .card1 {
+////        @include transform( rotateZ(0deg) scale(0.95));
+//        left:30%;
+//    }
+//    .card2 {
+//        left:55%;  
+//    }
+//    .card3 {
+//         left:80%;
+//    }
+//    .card4 {
+//        left:105%;
+//    }   
+//}
 
 /* --------------------- INTEGRATION OF RADIUS ------------------- */
-//.float-left { display:inline-block; vertical-align:top; }
-//.half{ width:40%; }
-.bg-tech { background:transparent url('http://foryo.us.s3.amazonaws.com/random/industry_ops.png') 50% 50% no-repeat; }
-.bg-strategic { background:transparent url('http://foryo.us.s3.amazonaws.com/random/industry_usc.png') 50% 50% no-repeat; }
-//.full-width { width:100%; }
-.round { border-radius: 100%;}
-.border-3-gold { border: 3px solid $gold4; }
