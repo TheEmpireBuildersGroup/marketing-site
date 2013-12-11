@@ -3,13 +3,28 @@
 /* ------------------------------ Configurations
 --------------------------------------------- */
 /* ---------- Color Variables ----------------- */
+.white {
+  color: white; }
+
+.hvr-white:hover {
+  color: white; }
+
 .gold {
   color: #b18000; }
+
+.hvr-gold:hover {
+  color: #e9bb1e; }
 
 .brown {
   color: #3a211d; }
 
+.hvr-brown:hover {
+  color: #3a211d; }
+
 .gray {
+  color: #474748; }
+
+.hvr-gray:hover {
   color: #474748; }
 
 /* ---------- Breakpoints ----------------- */
@@ -318,6 +333,18 @@ p {
   padding: 1.6em 2em;
   margin: 1.5em 10%;
   overflow: hidden; }
+
+.txt-dec-ul-hvr {
+  text-decoration: none; }
+
+.txt-dec-ul-hvr {
+  text-decoration: none; }
+
+.txt-dec-none {
+  text-decoration: none; }
+
+.txt-dec-none-hvr:hover {
+  text-decoration: none; }
 
 /* ------------------------------ ICON FONT ----------------------- */
 @font-face {
