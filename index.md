@@ -5,7 +5,7 @@ second_title: "Don't Gamble With Your Data"
 permalink: /
 title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Analysis, Business Analysis, System Integrators, Data Analysis, System Configuration"
 
-hero_image: 'gamble.png'
+hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
 
 Technology has changed the way business manages their most valuable asset - DATA. Ten years ago, no one would think about buying Goldmine or Oracle without convening a committee to discuss the data, legal and infrastructure needs. They’d create a functional specification and have a multidisciplinary team analyze the process, implement, port the data and provide comprehensive training to the users.
