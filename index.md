@@ -21,18 +21,18 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <strong><li>Outcome - </strong>Necessary business intelligence doesn't magically appear on the fancy, built-in dashboard.<br> Feelings of anger and frustration over time and dollars wasted while Saturdays are spent reformatting the previous reporting spreadsheet.</li></p>  
 
 <p><h4><strong>Why Does This Happen?</h4></strong><br>
-Consider how technology was implemented 10 years ago:<br>
+<strong>Consider how technology was implemented 10 years ago:<br></strong>
 <strong><li>Managed by - </strong>Multidisciplinary committee including IT, process engineers, information systems analysts.<br>
 <strong><li>Sourcing Methodology - </strong>600 page request for proposal process over the span of 18 months<br> with a minimum of three D&B vetted responses.<br>
 <strong><li>Implementation - </strong> Analyze the business process, issue purchase order to Goldmine or Oracle<br> with company specified terms and conditions, implement each module and test before implementing the next,<br> two week system shutdown to port the data, six months of comprehensive user training.<br>
 <strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold. </li><br><br>
-Today, solutions need to be in place very quickly and technology brands have helped users believe that it is okay to skip steps along the way. The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, technology is purchased on features and benefits sets, leading users to believe their system will work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br> You've probably already discovered that this isn't the case. </p>
+The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, solutions need to be in place very quickly. Technology brands have helped users believe that it is okay to skip steps along the way, suggesting features and benefits will replace planning and expertise. Users then expect their new system to work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br><strong>You've probably already discovered that this isn't the case.<br>There's a better way.</strong></p>
 
 <p><h4><strong>There is a Middle Ground - Our Nuanced Approach</h4></strong><br>
-Every project at The Empire Builders Group has three phases.<br>
-<strong><li>Process Analysis - </strong>We work with you to understand and tighten your business workflows and to effectively capture what you need your technology to leverage. We generally save companies obnoxious amounts of money inadvertently.<br>
-<strong><li>Data Mapping - </strong>We examine the information you are or are not entering and the intelligence you'd like to receieve from the systems and map the delta to make sure we can actually get you from point A to point B.<br> 
-<strong><li>System Implementation - </strong>We work with your existing vendors and technical team and our relationships at the technology brand to ensure a soft landing for your new robot. Then we configure it to how you need to use it, including getting the data into it the right way.<br></li>
-On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.</p>
+Every project at The Empire Builders Group has three phases:<br>
+<strong><li>Process Analysis - </strong>We work with you to understand and tighten your business workflows.<br>This effectively captures what you need your technology to actually do and generally saves obnoxious amounts of money along the way.<br>
+<strong><li>Data Mapping - </strong>We examine the information going in and listen to what is required to come from the system.<br> We ask difficult questions and help you make strong metrics.<br> Then we map the delta to make sure we can actually get you from point A to point B.<br> 
+<strong><li>System Implementation - </strong>We work with your existing vendors and technical team if you'd like. <br>We provide any other expertise needed alongside our relationships within the team at the technology brand to ensure a soft landing for your new robot. We work together to configure your system for your unique requirements, including getting the data into it the right way so you can sit down and get started right away.</li><br><br>
+<strong>On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.<br></strong> Oh, and freedom from rainmain spreadsheets.</p>
 
 
