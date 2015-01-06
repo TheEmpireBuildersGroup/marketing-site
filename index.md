@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Choosing Technology Without Our Expertise Can Be Risky Business."
-second_title: "Don't Gamble With Your Data"
+title: "Technology as a Business Strategy."
+second_title: "Don't Gamble With Your Data."
 permalink: /
 title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Analysis, Business Analysis, System Integrators, Data Analysis, System Configuration"
 
