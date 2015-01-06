@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Successful Businesses use Technology as a Strategy."
-second_title: "Gamblers hope Business Intelligence Magically Reports from the New Widget."
+second_title: "Gamblers leave Business Intelligence to Chance."
 permalink: /
 title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Analysis, Business Analysis, System Integrators, Data Analysis, System Configuration"
 
