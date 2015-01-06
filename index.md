@@ -7,7 +7,6 @@ title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Ana
 hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
 <section id="familiar">
-<article class="margin-b-2em">
 <div class="third margin-l-r-2em">
 <h6 class="nostyle gold">This is the only kind of technology we could find that does <br/> [insert business need].</h6>
 <img class="img-responsive"src="{{site.baseurl}}/assets/img/horse_info-10.png" alt="Horseman">
@@ -16,7 +15,6 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <img class="img-responsive"src="{{site.baseurl}}/assets/img/keys_info-8.png" alt="the key">
 <h6 class="nostyle gold">The integrations are just "one click". It says so right here. We pay the fee, enter the credentials from [insert anything you keep company data in] and then it just works.</h6>
 </div>
-</article>
 </section>
 <hr />
 <p><h4><strong>What an Average Technology Implementation Looks Like Today:</strong></h4><br> 
