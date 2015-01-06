@@ -21,15 +21,18 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <strong><li>Outcome - </strong>Necessary business intelligence doesn't magically appear on the fancy, built-in dashboard.<br> Feelings of anger and frustration over time and dollars wasted while Saturdays are spent reformatting the previous reporting spreadsheet.</li></p>  
 
 <p><h4><strong>Why Does This Happen?</h4></strong><br>
-Technology has changed the way business manages their most valuable asset - DATA. <br>
-Compare to a technology implementation of ten years ago:
-<strong><li>Managed by - </strong>Multidisciplinary committee including IT, process engineers, information systems analysts<br>
-<strong><li>Sourcing Methodology - </strong>600 page request for proposal process over the span of 18 months with a minimum of three D&B vetted responses.<br>
-<strong><li>Implementation - </strong> Analyze the business process, issue purchase order to Goldmine or Oracle with company specified terms and conditions, implement module and test, implement next module and test, port the data, provide 3-6 months of comprehensive user training led by a professional trainer in that software brand.<br> 
-<strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required and users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound. Companies discover the data is so sound that 10 years later when they export it they have a robust "big data" set that can be queried or sold. </li><br><br>
-Today, this type of implementation isn't feasible either. Business moves much faster and people expect solutions to be in place very quickly. Technology brands lead users to believe their system will work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support. You've probably already discovered that this isn't the case. </p>
+Consider how technology was implemented 10 years ago:<br>
+<strong><li>Managed by - </strong>Multidisciplinary committee including IT, process engineers, information systems analysts.<br>
+<strong><li>Sourcing Methodology - </strong>600 page request for proposal process over the span of 18 months<br> with a minimum of three D&B vetted responses.<br>
+<strong><li>Implementation - </strong> Analyze the business process, issue purchase order to Goldmine or Oracle<br> with company specified terms and conditions, implement each module and test before implementing the next,<br> two week system shutdown to port the data, six months of comprehensive user training.<br>
+<strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold. </li><br><br>
+Today, solutions need to be in place very quickly and technology brands have helped users believe that it is okay to skip steps along the way. The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, technology is purchased on features and benefits sets, leading users to believe their system will work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br> You've probably already discovered that this isn't the case. </p>
 
 <p><h4><strong>There is a Middle Ground - Our Nuanced Approach</h4></strong><br>
-Here, at The Empire Builders Group, we find that integrating a new piece of technology into the workflow of your business and making sure the information flows in properly so it comes out into an effective dashboard requires some careful attention. This is incredibly difficult to do when you have (another) day job and it's the first time you've seen this tool outside of it's packaging. We can help. </p>
+Every project at The Empire Builders Group has three phases.<br>
+<strong><li>Process Analysis - </strong>We work with you to understand and tighten your business workflows and to effectively capture what you need your technology to leverage. We generally save companies obnoxious amounts of money inadvertently.<br>
+<strong><li>Data Mapping - </strong>We examine the information you are or are not entering and the intelligence you'd like to receieve from the systems and map the delta to make sure we can actually get you from point A to point B.<br> 
+<strong><li>System Implementation - </strong>We work with your existing vendors and technical team and our relationships at the technology brand to ensure a soft landing for your new robot. Then we configure it to how you need to use it, including getting the data into it the right way.<br></li>
+On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.</p>
 
 
