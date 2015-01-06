@@ -58,7 +58,7 @@ Every project at The Empire Builders Group has three phases:<br>
 <section id="services" class="services">
 <h2>Our Services</h2>
 <div class="columns">
-    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Strategic Consulting Services</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Strategic Consulting Services</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology System Implementations</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hands.png"><h4>Technology Spend Management</h4></a></div>
 </div>
