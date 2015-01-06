@@ -42,7 +42,7 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <span class="large-quote">&ldquo;</span>
 Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand. We build the bridge.
 <span class="large-quote">&rdquo;</span>
+<a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span> Why Our Approach Works</a>
 </p>
-<a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span>Why Our Approach Works</a>
 </div>
 </section>
