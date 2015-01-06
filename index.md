@@ -34,15 +34,13 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <h2>Our Services</h2>
 <p>There is a middle ground between old and new, ensuring you receive a carefully planned and thoughtfully executed solution to scaling business. We work with companies to help build their empire in three ways: 
 <div class="columns">
-    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Strategic Consulting</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4><br>Strategic<br> Consulting</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology Implementation</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Expense Management</h4></a></div></p>
 <p class="quote h5">
 <span class="large-quote">&ldquo;</span>
-Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand. We build the bridge.
-&ndash;Mike Trout
-<span class="large-quote">&rdquo;</span><br><br>
+Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand.<span class="large-quote">&rdquo;</span>
+<p>&ndash;Mike Trout<br>
 <a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span> Why Our Approach Works</a>
-</p>
 </div>
 </section>
