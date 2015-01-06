@@ -20,14 +20,13 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <div class="third margin-l-r-2em">
 <img class="img-responsive"src="{{site.baseurl}}/assets/img/keys_info-8.png" alt="the key">
 <h6 class="nostyle gold">The integrations are just "one click". It says so right here. We pay the fee, enter the credentials from [insert anything you keep company data in] and then it just works.</h6>
-</div></article></section><hr />
-<section id="ahl-reckoning">
+</div></article></section>
 <p><h2><strong>Why Does This Happen?</h2></strong><br>
 <strong>Consider how technology was implemented 10 years ago:<br></strong>
 <strong><li>Managed by - </strong>Multidisciplinary committee including IT, process engineers, information systems analysts.<br>
 <strong><li>Sourcing Methodology - </strong>600 page request for proposal process over the span of 18 months<br> with a minimum of three D&B vetted responses.<br>
 <strong><li>Implementation - </strong> Analyze the business process, issue purchase order to Goldmine or Oracle<br> with company specified terms and conditions, implement each module and test before implementing the next,<br> two week system shutdown to port the data, six months of comprehensive user training.<br>
-<strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold.</li><br><br>
+<strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold.</li><br><br><hr />
 <article>
 <img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
 <h3>There is a Better Way</h3>
