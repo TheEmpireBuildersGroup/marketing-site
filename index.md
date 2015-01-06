@@ -160,7 +160,7 @@ Every project at The Empire Builders Group has three phases. <strong>On average,
 <a href="{{site.baseurl}}/contact" class="btn btn-primary"><span class="icon-tools"></span> Let's Get Started</a>
 </div>
 </section>
----
+<h2>Types of Clients</h2>
 <p>The types of companies that find our services most valuable are those looking to improve their operational technology or undergoing some type of strategic change. </p>
 <section id="tech-change" class="margin-t-b-2em">
 <article class="half no-margin">
