@@ -7,11 +7,11 @@ title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Ana
 
 hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
-<p><strong>What an Average Technology Implementation Looks Like Today:</strong><br> 
-<strong>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
-<strong>Sourcing Methodology - </strong>Poll LinkedIn, Google, colleagues, for solutions and best practices.<br> 
-<strong>Implementation - </strong>Stick credit card number into internet form, send link to intern for setup.<br>  
-<strong>Outcome - </strong>The necessary business intelligence doesn't magically spit out on the fancy built in dashboard. Feelings of anger and frustration over time and dollars wasted while Saturdays are wasted reformatting the previous reporting spreadsheet.</p>  
+<p><h2><strong>What an Average Technology Implementation Looks Like Today:</strong></h2><br> 
+<strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
+<strong><li>Sourcing Methodology - </strong>Poll LinkedIn, Google, colleagues, for solutions and best practices.<br> 
+<strong><li>Implementation - </strong>Stick credit card number into internet form, send link to intern for setup.<br>  
+<strong><li>Outcome - </strong>Necessary business intelligence doesn't magically appear on the fancy, built-in dashboard. Feelings of anger and frustration over time and dollars wasted while Saturdays are spent reformatting the previous reporting spreadsheet.</li></p>  
 
 Business moves much faster in the digital age and people expect solutions to be in place very quickly. Technology companies lead you to believe their system will meet a company's needs instantly and out of the box with little or no expert support. Here, at The Empire Builders Group we find that most people have a day job to do and integrating a new piece of technology into the workflow of your business and making sure the information flows in properly so it comes out into an effective dashboard requires some careful attention.
 
