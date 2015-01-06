@@ -7,12 +7,29 @@ title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Ana
 
 hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
-
 <div class="columns">
     <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Strategic Consulting Services</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology System Implementations</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hands.png"><h4>Technology Spend Management</h4></a></div>
 </div>
+<section id="familiar">
+<h2 class="three-quarters margin-b-1em">Costly Technology Lies Are Cleverly Disguised as Easy Do It Yourself Solutions</h2>
+<p class="three-quarters margin-b-1em"> Technology is the intersection of business process and operational information. Do it correctly, it’s a magical money making machine. Do it badly, there is NO GREATER SUFFERING for your organization in a money over time comparison. We have collected the twelve most expensive technology lies our clients heard and then came to us because they needed our help to undo them. A sampling:</p>
+<article class="margin-b-2em">
+<div class="third margin-l-r-2em">
+<h6 class="nostyle gold">This is the only kind of technology we could find that does <br/> [insert business need].</h6>
+<img class="img-responsive"src="{{site.baseurl}}/assets/img/horse_info-10.png" alt="Horseman">
+</div>
+<div class="third margin-l-r-2em">
+<img class="img-responsive"src="{{site.baseurl}}/assets/img/keys_info-8.png" alt="the key">
+<h6 class="nostyle gold">The integrations are just "one click". It says so right here. We pay the fee, enter the credentials from [insert anything you keep company data in] and then it just works.</h6>
+</div>
+</article>
+<h3 class="margin-b-1em">What are the 12 Most Expensive Technology Lies?</h3>
+<a class="btn btn-primary margin-b-1em" href="{{site.baseurl}}/assets/downloads/EBG-12_Costly_Technology_Lies_Cleverly_Disguised_as_DIY.pdf" target="_blank">Download the PDF</a>
+<h4>We help you get it right the first time.</h4>
+</section>
+<hr />
 
 <p><h4><strong>What an Average Technology Implementation Looks Like Today:</strong></h4><br> 
 <strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
@@ -28,12 +45,66 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold. </li><br><br>
 The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, solutions need to be in place very quickly. Technology brands have helped users believe that it is okay to skip steps along the way, suggesting features and benefits will replace planning and expertise. Users then expect their new system to work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br><strong>You've probably already discovered that this isn't the case.<br>There's a better way.</strong></p>
 
+<div class="columns">
+<div class="third">
+<img src="{{site.baseurl}}/assets/img/consult_process.png" alt="Consult Process" class="img">
 <p><h4><strong>There is a Middle Ground - Our Nuanced Approach</h4></strong><br>
 Every project at The Empire Builders Group has three phases:<br>
-<strong><li>Process Analysis - </strong>We work with you to understand and tighten your business workflows.<br>This effectively captures what you need your technology to actually do and generally saves obnoxious amounts of money along the way.<br>
-<strong><li>Data Mapping - </strong>We examine the information going in and listen to what is required to come from the system.<br> We ask difficult questions and help you make strong metrics.<br> Then we map the delta to make sure we can actually get you from point A to point B.<br> 
-<strong><li>System Implementation - </strong>We work with your existing vendors and technical team if you'd like. <br>We provide any other expertise needed alongside our relationships within the team at the technology brand to ensure a soft landing for your new robot. We work together to configure your system for your unique requirements, including getting the data into it the right way so you can sit down and get started right away.</li><br><br>
-<strong>On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.<br></strong> Oh, and freedom from rainmain spreadsheets.</p>
+<h3>Process<br/>Analysis</h3>
+<p>We work with you to understand and tighten your business workflows using our tested methodology. Quickly and easily, we'll effectively capture how technology can help your team best and show you where you can save significant amounts of money.</p>
+</div>
+<div class="third">
+<img src="{{site.baseurl}}/assets/img/consult_data.png" alt="Consult Data" class="img">
+<h3>Data<br/>Mapping</h3>
+<p>We examine the information going in and listen to what is required to come from the system.<br> We ask difficult questions and help bring very different data sets together or recovering lost or corrupted data from a previous system or a breach. Then we map the delta to make sure we can actually get you from point A to point B.</p>
+</div>
+<div class="third">
+<img src="{{site.baseurl}}/assets/img/consult_tech.png" alt="Consult Tech" class="img">
+<h3>Technology<br/>Implementation</h3>
+<p>We work with your existing vendors and technical team if you'd like. <br>We provide any other expertise needed alongside our relationships within the team at the technology brand to ensure a soft landing for your new robot. We work together to configure your system for your unique requirements, including showing you what the technology can do for your business process so you get the most use out of your investment.</p>
+</div>
+</div>
+<br/>
+<strong><p>On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.<br></strong> Oh, and freedom from rainmain spreadsheets.</p>
+<hr />
+<br/>
+<section>
+<div class="quote">
+<h2>“Never confuse motion with action.”</h2>
+<p>&ndash; Benjamin Franklin, notable American inventor</p>
+</div>
+</section>
+<hr />
+<section id="services" class="services">
+<h2>Our Services</h2>
+<article>
+<img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
+<h3>System Implementation</h3>
+<p>You need a new system, to expand your current system, to transition out of a legacy system or to merge your system with another. We understand what your goals are, what resources you already have in place and what already exists in your company. We examine your work flow, collect your data and help you select the best technology on the market for your specific need. Our team configures your system, brings in your data, completes the integrations, and formats the reports to your liking. We train your team on using the new system and processes and leave you with the resources you need to manage it on your own. </p>
+</article>
+<article>
+<img class="" src="{{site.baseurl}}/assets/img/consult_risk.png" alt="Consult Risk">
+<h3>System Optimization</h3>
+<p>You have a system with data in it and it works fine or you don&#8217;t have the option to change it. We can help make using that system more effective and efficient. Some examples include: 1) transition to electronic workflows and processes - the paperless and paperlight offices. This includes support of Electronic Medical Record conversions. 2) integration of systems or combination of data sets for reporting 3) any complex dashboarding and analytics, especially if you can&#8217;t get or find the data in your existing technology. We identify where you&#8217;d like to be leaner or faster, work with or train your team to do the work if you prefer, provide business analysis or setup the systems, queries and reports that you need. </p>
+</article>
+<article>
+<img class="" src="{{site.baseurl}}/assets/img/consult_strategy.png" alt="Consult Strategy">
+<h3>Company Technology Strategy</h3>
+<p>General Counsel won’t approve the Sugar CRM contract and you can’t even find a phone number to call their legal group. You moved hosting companies and now you can’t seem to access old email. The last company won’t help you. Your clients keep getting hacked and it makes you nervous because they only thing they share in common is you. There has to be a way to make all of these systems easier. Using excel to create our reporting is arduous and time consuming. The CEO heard Google Apps for Business was cheaper, the IT guy had some free Sharepoint licenses so you built a document library for production on it, your accountant insists you use a cloud based financial package and now the sales manager wants to buy Pipeliner. We help companies review their current technology architecture, spend, risk and licensing and support the renegotiation of contract terms with technology providers. </p>
+</article>
+<article>
+<img class="" src="{{site.baseurl}}/assets/img/consult_diligence.png" alt="Consult Diligence">
+<h3>Due Diligence of Companies and Technology</h3>
+<p>We are often requested during an audit, due diligence or valuation to provide our recommendations around the integrity, risk factors and potential value of a company's current data and technology. Our deliverables include any compliance or deal required documentation in industry acceptable formats. We then apply this expertise to helping our clients select the right technology vendors and technology solutions for their business. Your IT team can help determine if your server and your workstations are configured properly, but how much experience do they have in helping you make strategic vendor decisions? You speak in business needs; most technology companies speak in techie-ese. We help understand what your business requires and translate that into a functional specification. We can then define scopes of work for various vendors or providers, provide you a feature and benefit review of products and services on the market. </p>
+</article>
+<article>
+<img class="" src="{{site.baseurl}}/assets/img/consult_other.png" alt="Consult Other Services">
+<h3>Other Services Offered</h3>
+<p>Liquidation of Electronic Assets including Data, Domains, IP and Technology Licensing, Data Salvage, Forensics and Audit Support, Information Systems Management Process Compliance to Most Standards, Data Integrity Compliance Support for Most Industries, including HIPPA, Emergency Technology and Data Expertise for Breach, Audit and Crisis, Forensic and Litigation Support</p>
+</article>
+</section>
+<hr />
+
 
 <sector id="team">
 <h1>Our Team</h1>
@@ -69,3 +140,67 @@ Technology involves two types of people: those who understand what they do not m
 <p>When we're not on a client site somewhere in the world, you'll find us enjoying the amazing city of Philadelphia, a bustling technology and innovation hub. We're community contributors, supporting our own corporate initiatives, those of our strategic partners and those our staff are personally interested. We’ll keep playing silly games on Twitter and attending the Philadelphia Geek Awards and consistently delivering quality technology solutions to our clients year after year so they can stay focused on their business. <strong>Let us help you get back to business</strong>.</p>
 <hr>
 <a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span> What We Do For You</a>
+<section id="tools">
+<h1>Some of our Recent Implementations</h1>
+<h5>We work in hundreds of different systems a year, yours included</h5>
+<ul class="gallery">
+<li class="fourth">
+<div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/basecrm_logo.png" alt="Base Crm logo"></div>
+<h4>CRM</h4>
+</li>
+<li class="fourth">
+<div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/quickbooks_logo.png" alt="Quickbooks logo"></div>
+<h4>Accounting Packages</h4>
+</li>
+<li class="fourth">
+<div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/Marketo_Logo.jpg" alt="Marketo Logo"></div>
+<h4>Marketing Automation</h4>
+</li>
+<li class="fourth">
+<div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/idexx_cornerstone.jpg" alt="Jpeg 8"></div>
+<h4>Practice Management</h4>
+</li>
+<li class="fourth">
+<div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/worketc_logo.png" alt="Png 12"></div>
+<h4>Project Management</h4>
+</li>
+<li class="fourth">
+<div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/adobe_echosign_logo.jpg" alt="Jpeg 12"></div>
+<h4>Document Management</h4>
+</li>
+<li class="fourth">
+<div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/Cognos_logo.png" alt="Png 14"></div>
+<h4>Business Intelligence</h4>
+</li>
+<li class="fourth">
+<div class="grid-block">
+<img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/oracle_logo.jpg" alt="Png 5">
+</div>
+<h4>ERP</h4>
+</li>
+<li class="fourth">
+<div class="grid-block">
+<img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/AriaSystems_logo.jpeg" alt="Png 10">
+</div>
+<h4>Billing, Invoicing and Subscriptions</h4>
+</li>
+<li class="fourth">
+<div class="grid-block">
+<img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/tribehr_logo.jpg" alt="Jpeg 5">
+</div>
+<h4>HRMS</h4>
+</li>
+<li class="fourth">
+<div class="grid-block">
+<img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/authorizenet_logo.gif" alt="Jpeg 5">
+</div>
+<h4>Payment Processing</h4>
+</li>
+<li class="fourth">
+<div class="grid-block">
+<img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/sharepoint_logo.png" alt="Jpeg 5">
+</div>
+<h4>EIM</h4>
+</li>
+</ul>
+</section> 
