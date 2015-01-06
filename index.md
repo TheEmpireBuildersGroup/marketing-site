@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Technology as a Business Strategy."
-second_title: "Don't Gamble With Your Data."
+title: "Successful Businesses use Technology as a Strategy."
+second_title: "Gamblers leave their Business Intelligence to Chance."
 permalink: /
 title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Analysis, Business Analysis, System Integrators, Data Analysis, System Configuration"
 
