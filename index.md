@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Successful Businesses use Technology as a Strategy."
-second_title: "What an Average Technology Implementation Looks Like Today:"
 permalink: /
 title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Analysis, Business Analysis, System Integrators, Data Analysis, System Configuration"
 
 hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
 <section id="familiar">
-<p><strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
+<p><h2><strong>What an Average Technology Implementation Looks Like Today:</h2></strong><br>
+<strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
 <strong><li>Sourcing Methodology - </strong>Poll LinkedIn, Google, colleagues, for solutions and best practices.<br> 
 <strong><li>Implementation - </strong>Stick credit card number into internet form, send link to intern for setup.<br>  
 <strong><li>Outcome - </strong>Necessary business intelligence doesn't magically appear on the fancy, built-in dashboard.<br> Feelings of anger and frustration over time and dollars wasted while Saturdays are spent reformatting the previous reporting spreadsheet.</li></p>  
@@ -61,9 +61,9 @@ Every project at The Empire Builders Group has three phases:<br>
 <section id="services" class="services">
 <h2>Our Services</h2>
 <div class="columns">
-    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Our Team</h4></a></div>
-    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Our Services</h4></a></div>
-    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Our Clients</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Strategic Consulting</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology Implementation</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Expense Management</h4></a></div>
 </div>
 <article>
 <img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
