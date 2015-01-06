@@ -28,7 +28,11 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <strong><li>Sourcing Methodology - </strong>600 page request for proposal process over the span of 18 months<br> with a minimum of three D&B vetted responses.<br>
 <strong><li>Implementation - </strong> Analyze the business process, issue purchase order to Goldmine or Oracle<br> with company specified terms and conditions, implement each module and test before implementing the next,<br> two week system shutdown to port the data, six months of comprehensive user training.<br>
 <strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold.</li><br><br>
-The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, solutions need to be in place very quickly. Technology brands have helped users believe that it is okay to skip steps along the way, suggesting features and benefits will replace planning and expertise. Users then expect their new system to work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br><strong>You've probably already discovered that this isn't the case.<br>There's a better way.</strong></p>
+<article>
+<img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
+<h3>There is a Better Way</h3>
+<p>The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, solutions need to be in place very quickly. Technology brands have helped users believe that it is okay to skip steps along the way, suggesting features and benefits will replace planning and expertise. Users then expect their new system to work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br><strong>You've probably already discovered that this isn't the case.</strong></p>
+</article>
 </section>
 <section id="services" class="services">
 <p><h2><strong>There is a Middle Ground - Our Nuanced Approach</h2></strong><br><br>
@@ -58,9 +62,9 @@ Every project at The Empire Builders Group has three phases:<br>
 <section id="services" class="services">
 <h2>Our Services</h2>
 <div class="columns">
-    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Strategic Consulting Services</h4></a></div> 
-    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology System Implementations</h4></a></div>
-    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Spend Management</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Our Team</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Our Services</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Our Clients</h4></a></div>
 </div>
 <article>
 <img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
