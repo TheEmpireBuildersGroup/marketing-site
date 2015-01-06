@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Successful Businesses use Technology as a Strategy."
-second title: "What an Average Technology Implementation Looks Like Today:"
+second_title: "What an Average Technology Implementation Looks Like Today:"
 permalink: /
 title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Analysis, Business Analysis, System Integrators, Data Analysis, System Configuration"
 
