@@ -31,13 +31,19 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
 <h3>There is a Better Way</h3>
 <p>The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, solutions need to be in place very quickly. Technology brands have helped users believe that it is okay to skip steps along the way, suggesting features and benefits will replace planning and expertise. Users then expect their new system to work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br><strong>You've probably already discovered that this isn't the case.</strong></p>
+<section id="services" class="services">
+<h2>Our Services</h2>
+<div class="columns">
+    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Strategic Consulting</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology Implementation</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Expense Management</h4></a></div>
 <p class="quote h5">
 <span class="large-quote">&ldquo;</span>
 Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand. We build the bridge.
 <span class="large-quote">&rdquo;</span>
 </p>
-<p><h3>There is a Middle Ground - Our Nuanced Approach</h3><br><br>
-Every project at The Empire Builders Group has three phases. On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity. Oh, and freedom from rainmain spreadsheets.</p><br>
+<p><h3>There is a Middle Ground - Our Nuanced Approach</h3><br>
+Every project at The Empire Builders Group has three phases. <strong>On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity</strong>. Oh, and freedom from rainmain spreadsheets.</p><br>
 <div class="columns">
 <div class="third">
 <img src="{{site.baseurl}}/assets/img/consult_process.png" alt="Consult Process" class="img">
@@ -57,13 +63,6 @@ Every project at The Empire Builders Group has three phases. On average, we're d
 </div>
 </section>
 <br/>
-<section id="services" class="services">
-<h2>Our Services</h2>
-<div class="columns">
-    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4>Strategic Consulting</h4></a></div>
-    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology Implementation</h4></a></div>
-    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Expense Management</h4></a></div>
-</div>
 <sector id="team">
 <h1>Our Team</h1>
 <div class="columns">
@@ -84,17 +83,15 @@ Every project at The Empire Builders Group has three phases. On average, we're d
 </div>
 <div class="third wider">
 <h3>Data Analysts</h3>
-<p>Our data analysts understand data and the human behavior around it. They understand the regulations in your industry and help ensure data security through integrations. They have expertise in key performance indicators, dashboarding and analysis driving decision making and have established wizardry in query and report creation. </p>
-</div>
+<p>Our data analysts understand data and the human behavior around it. <strong>They understand the regulations in your industry and help ensure data security through integrations</strong>. They have expertise in key performance indicators, dashboarding and analysis driving decision making and have established wizardry in query and report creation. </p>
 </div>
 </sector>
 <img class="img-responsive full-width row" src="{{site.baseurl}}/assets/img/office-pano.jpg" alt="" />
-<p>The team at The Empire Builders Group is recognized regularly for their expertise and contributions to the industries in which we operate. Our extended team includes strategic partners providing cybersecurity, web and mobile application development, risk management and legal support and the services our client needs require. When we're not on a client site somewhere in the world, you'll find us enjoying the amazing city of Philadelphia, a bustling technology and innovation hub. We're community contributors, supporting our own corporate initiatives, those of our strategic partners and those our staff are personally interested. We’ll keep playing silly games on Twitter and attending the Philadelphia Geek Awards and consistently delivering quality technology solutions to our clients year after year so they can stay focused on their business. <strong>Let us help you get back to business</strong>.</p>
+<p>The team at The Empire Builders Group is recognized regularly for their expertise and contributions to the industries in which we operate. Our extended team includes strategic partners providing cybersecurity, web and mobile application development, risk management and legal support and the services our client needs require. When we're not on a client site somewhere in the world, you'll find us enjoying the amazing city of Philadelphia, a bustling technology and innovation hub. We're community contributors, supporting our own corporate initiatives, those of our strategic partners and those our staff are personally interested. We’ll keep consistently delivering quality technology solutions to our clients year after year so they can stay focused on their business. <strong>Let us help you get back to business</strong>.</p>
 <hr>
-
 <section id="tools">
 <h1>Some of our Recent Implementations</h1>
-<h5>We work in hundreds of different systems a year, yours included</h5>
+<h5>We work in hundreds of different systems a year, yours included. The company and the staff hold certifications in dozens. Here is a sampling:</h5>
 <ul class="gallery">
 <li class="fourth">
 <div class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/tools/basecrm_logo.png" alt="Base Crm logo"></div>
@@ -160,7 +157,136 @@ Every project at The Empire Builders Group has three phases. On average, we're d
 <div class="quote">
 <h2>“Never confuse motion with action.”</h2>
 <p>&ndash; Benjamin Franklin, notable American inventor</p>
-<a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span> What We Do For You</a>
+<a href="{{site.baseurl}}/contact" class="btn btn-primary"><span class="icon-tools"></span> Let's Get Started</a>
 </div>
 </section>
+---
+<p>The types of companies that find our services most valuable are those looking to improve their operational technology or undergoing some type of strategic change. </p>
+<section id="tech-change" class="margin-t-b-2em">
+<article class="half no-margin">
+<div class="radius bg-tech">
+<a href='#' class='border-3-gold round point deg270 icon-dollar'><span class="up-top base-type-size">Sales</span>
+<a href='#' class='border-3-gold round point deg330 icon-light-bulb'><span class="up-top base-type-size">Marketing</span></a>
+<a href='#' class='border-3-gold round point deg30 icon-lock'><span class="down-low base-type-size">Legal and Compliance</span></a>
+<a href='#' class='border-3-gold round point deg90 icon-tools'><span class="down-low base-type-size">Service Delivery</span></a>
+<a href='#' class='border-3-gold round point deg150 icon-mug'><span class="down-low base-type-size">HR Management</span></a>
+<a href='#' class='border-3-gold round point deg210 icon-uniF749'><span class="up-top base-type-size">Accounting</span></a>
+</div>
+</article>
+<div class="hr-vert"></div>
+<article class="half">
+<div class="radius bg-strategic">
+<!--<a href='#' class='center'>O</a>-->
+<a href='#' class='border-3-gold round point deg270 icon-key'><span class="up-top base-type-size">Growth</span></a>
+<a href='#' class='border-3-gold round point deg0 icon-rook'><span class="down-low base-type-size">Strategic Operators</span></a>
+<a href='#' class='border-3-gold round point deg90 icon-hourglass'><span class="down-low base-type-size">Downsizing</span></a>
+<a href='#' class='border-3-gold round point deg180 icon-axe'><span class="down-low base-type-size">Loss</span></a>
+</div>
+</article>
+</section>
+<div class="quote h5 margin-t-b-4em">
+<p class="">
+<span class="large-quote">&ldquo;</span>
+The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency.
+<span class="large-quote">&rdquo;</span>
+</p>
+&mdash;Bill Gates
+</div>
+<!-- <section id="strategic-change" class="card-container-hover">
+<section class="card-container">
+<article id="card1" class="card card1">
+<h3>Growth</h3>
+<p>Pushing past a plateau, expanding internationally, opening a new product or line of business, under new management, merging, taking investment or pursuing IPO</p>
+<hr class="hr-30">
+<h5>Needs We Serve</h5>
+<p class="small-type">Expanding Current Systems, Transition Out of Legacy Systems, Transition to Electronic Workflows and Processes, Due Diligence on New Technology, Implementation of New Technology, Integrating Systems</p>
+</article>
+<article id="card2" class="card card2">
+<h3>Strategic Operators</h3>
+<p>Investment groups and operators seeking leverage through merger, acquisition and divestiture of similar types of businesses</p>
+<hr class="hr-30">
+<h5>Needs We Serve</h5>
+<p class="small-type">Supporting Due Diligence team in assessing potential value of a company’s data and technology, Transition Out of Legacy Systems, Transition to Electronic Workflows and Processes, Due Diligence on New Technology Solution, Implementation of New Technology, Integrating Systems, Dashboarding and Analytics, Liquidation of Electronic Assets including Data, Domains, IP and Technology Licensing, Data Salvage, Review of Current Technology Architecture, Spend, Risk and Licensing, Renegotiation of Contract Terms with Technology Providers</p>
+</article>
+<article id="card3" class="card card3">
+<h3>Downsizing</h3>
+<p>Reduction in workforce, closure of locations or lines of business, reorganization of staff or lines of business, bankruptcy</p>
+<hr class="hr-30">
+<h5>Needs We Serve</h5>
+<p class="small-type">Review of Current Technology Architecture, Spend, Risk and Licensing, Renegotiation of Contract Terms with Technology Providers, Transition to Electronic Workflows and Processes, Integrating Systems, Liquidation of Electronic Assets including Data, Domains, IP and Technology Licensing, Data Salvage, Forensic and Audit Support, Information Systems Management Process Compliance to Most Standards, Data Integrity Compliance Support for Most Industries, including HIPPA</p>
+</article>
+<article id="card4" class="card card4">
+<h3>Loss</h3>
+<p>recent breach, crisis, loss, litigation, significant exposure or significant findings in audit, bankruptcy</p>
+<hr class="hr-30">
+<h5>Needs We Serve</h5>
+<p class="small-type">Emergency Technology and Data Expertise for Breach, Audit and Crisis, Forensic and Litigation Support, Information Systems Management Process Compliance to Most Standards, Data Integrity Compliance Support for Most Industries, including HIPPA</p>
+</article>
+<div class="clearfix"></div>
+</section>
+</section> -->
+<section id="tools">
+<h1 class="">Industry Expertise</h1>
+<p><strong>Our services are most attractive to specific types of industries (many compliance regulated)</strong>, namely because their data is of great value and cyberbreach is a significant concern. These types of companies see a large return on their investment quickly because improving work flow using technology properly dramatically boosts their revenues.</p>
+<ul class="columns">
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/CVPCO_logo.jpg" alt="CVPCO"></span>
+<h4>Private Equity & Strategic Operators</h4>
+</li>
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/RREI_logo.jpg" alt="RREI"></span>
+<h4>Investors & Fund Managers</h4>
+</li>
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/impetuslogo.png" alt="Impetus Healthcare"></span>
+<h4>Healthcare</h4>
+</li>
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/chariotsolutions_logo.jpg" alt="Chariot"></span>
+<h4>Technology & Health IT</h4>
+</li>
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/wellsfargo_logo.png" alt="Wells Fargo"></span>
+<h4>Financial Services</h4>
+</li>
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/hadley_logo.png" alt="Hadley"></span>
+<h4>Commercial Real Estate</h4>
+</li>
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/canada_logo.jpg" alt="Canada"></span>
+<h4>Government</h4>
+</li>
+<li class="fourth">
+<span class="grid-block"><img class="img-responsive" src="{{site.baseurl}}/assets/img/sectors/OKNA_Logo.gif" alt="Okna"></span>
+<h4>Manufacturing</h4>
+</li>
+</ul>
+</section>
+<!-- <section id="the_second">
+<h3>The second type of company that sees the greatest return from working with The Empire Builders Group is any company undergoing a strategic change:</h3>
+<br/>
+<ul class="list">
+<li>Being Acquired, Doing Acquisition</li>
+<li>Merging</li>
+<li>International Expansion</li>
+<li>Spinning off a new product or line of business</li>
+<li>Pushing past current plateau</li>
+<li>Under new management</li>
+<li>Transition to electronic records</li>
+<li>Looking to transition from legacy systems</li>
+<li>Recent loss, litigation, significant exposure or significant findings in audit </li>
+<li>Taking Investment</li>
+<li>Pursuing IPO</li>
+<li>Looking to Sell, Be Valued</li>
+</ul>
+<br>
+<p>Outside of this niche expertise, all industries seeking to improve their use of operational technology may find our services of value. <a href="#">Contact us for details</a>.</p>
+</section>
+<section class="quote">
+From time to time, we offer a turnkey CRM deployment at a flat reasonable rate for a small business to both train our new staff and field test new releases of systems we love. Limitations apply.
+<br/><br/>
+<a href="{{site.baseurl}}/contact" class="btn btn-primary">Contact us to get on the waiting list.</a>
+</section> -->
 <hr />
+<a href="{{site.baseurl}}/contact" class="btn btn-primary">How can we help you?</a>
