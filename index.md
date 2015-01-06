@@ -7,14 +7,7 @@ title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Ana
 
 hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
-<div class="columns">
-    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Strategic Consulting Services</h4></a></div>
-    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology System Implementations</h4></a></div>
-    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hands.png"><h4>Technology Spend Management</h4></a></div>
-</div>
 <section id="familiar">
-<h2 class="three-quarters margin-b-1em">Costly Technology Lies Are Cleverly Disguised as Easy Do It Yourself Solutions</h2>
-<p class="three-quarters margin-b-1em"> Technology is the intersection of business process and operational information. Do it correctly, it’s a magical money making machine. Do it badly, there is NO GREATER SUFFERING for your organization in a money over time comparison. We have collected the twelve most expensive technology lies our clients heard and then came to us because they needed our help to undo them. A sampling:</p>
 <article class="margin-b-2em">
 <div class="third margin-l-r-2em">
 <h6 class="nostyle gold">This is the only kind of technology we could find that does <br/> [insert business need].</h6>
@@ -25,9 +18,6 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <h6 class="nostyle gold">The integrations are just "one click". It says so right here. We pay the fee, enter the credentials from [insert anything you keep company data in] and then it just works.</h6>
 </div>
 </article>
-<h3 class="margin-b-1em">What are the 12 Most Expensive Technology Lies?</h3>
-<a class="btn btn-primary margin-b-1em" href="{{site.baseurl}}/assets/downloads/EBG-12_Costly_Technology_Lies_Cleverly_Disguised_as_DIY.pdf" target="_blank">Download the PDF</a>
-<h4>We help you get it right the first time.</h4>
 </section>
 <hr />
 
@@ -45,11 +35,11 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold. </li><br><br>
 The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, solutions need to be in place very quickly. Technology brands have helped users believe that it is okay to skip steps along the way, suggesting features and benefits will replace planning and expertise. Users then expect their new system to work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br><strong>You've probably already discovered that this isn't the case.<br>There's a better way.</strong></p>
 
+<p><h4><strong>There is a Middle Ground - Our Nuanced Approach</h4></strong><br>
+Every project at The Empire Builders Group has three phases:<br>
 <div class="columns">
 <div class="third">
 <img src="{{site.baseurl}}/assets/img/consult_process.png" alt="Consult Process" class="img">
-<p><h4><strong>There is a Middle Ground - Our Nuanced Approach</h4></strong><br>
-Every project at The Empire Builders Group has three phases:<br>
 <h3>Process<br/>Analysis</h3>
 <p>We work with you to understand and tighten your business workflows using our tested methodology. Quickly and easily, we'll effectively capture how technology can help your team best and show you where you can save significant amounts of money.</p>
 </div>
@@ -77,6 +67,11 @@ Every project at The Empire Builders Group has three phases:<br>
 <hr />
 <section id="services" class="services">
 <h2>Our Services</h2>
+<div class="columns">
+    <div class="fourth"><a href="{{site.baseurl}}/about" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Strategic Consulting Services</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology System Implementations</h4></a></div>
+    <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hands.png"><h4>Technology Spend Management</h4></a></div>
+</div>
 <article>
 <img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
 <h3>System Implementation</h3>
