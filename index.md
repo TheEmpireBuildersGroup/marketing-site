@@ -7,7 +7,13 @@ title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Ana
 hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
 <section id="familiar">
+<p><h2><strong>What an Average Technology Implementation Looks Like Today:</strong></h2><br> 
+<strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
+<strong><li>Sourcing Methodology - </strong>Poll LinkedIn, Google, colleagues, for solutions and best practices.<br> 
+<strong><li>Implementation - </strong>Stick credit card number into internet form, send link to intern for setup.<br>  
+<strong><li>Outcome - </strong>Necessary business intelligence doesn't magically appear on the fancy, built-in dashboard.<br> Feelings of anger and frustration over time and dollars wasted while Saturdays are spent reformatting the previous reporting spreadsheet.</li></p>  
 <div class="third margin-l-r-2em">
+<article class="margin-b-2em">
 <h6 class="nostyle gold">This is the only kind of technology we could find that does <br/> [insert business need].</h6>
 <img class="img-responsive"src="{{site.baseurl}}/assets/img/horse_info-10.png" alt="Horseman">
 </div>
@@ -15,14 +21,10 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <img class="img-responsive"src="{{site.baseurl}}/assets/img/keys_info-8.png" alt="the key">
 <h6 class="nostyle gold">The integrations are just "one click". It says so right here. We pay the fee, enter the credentials from [insert anything you keep company data in] and then it just works.</h6>
 </div>
+</article>
 </section>
 <hr />
-<p><h4><strong>What an Average Technology Implementation Looks Like Today:</strong></h4><br> 
-<strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
-<strong><li>Sourcing Methodology - </strong>Poll LinkedIn, Google, colleagues, for solutions and best practices.<br> 
-<strong><li>Implementation - </strong>Stick credit card number into internet form, send link to intern for setup.<br>  
-<strong><li>Outcome - </strong>Necessary business intelligence doesn't magically appear on the fancy, built-in dashboard.<br> Feelings of anger and frustration over time and dollars wasted while Saturdays are spent reformatting the previous reporting spreadsheet.</li></p>  
-
+<section id="ahl-reckoning">
 <p><h4><strong>Why Does This Happen?</h4></strong><br>
 <strong>Consider how technology was implemented 10 years ago:<br></strong>
 <strong><li>Managed by - </strong>Multidisciplinary committee including IT, process engineers, information systems analysts.<br>
@@ -30,7 +32,8 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <strong><li>Implementation - </strong> Analyze the business process, issue purchase order to Goldmine or Oracle<br> with company specified terms and conditions, implement each module and test before implementing the next,<br> two week system shutdown to port the data, six months of comprehensive user training.<br>
 <strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold. </li><br><br>
 The reason technology systems work well inside a company is because the data flows properly through the business process and it is made more efficient by the technology tool. Today, solutions need to be in place very quickly. Technology brands have helped users believe that it is okay to skip steps along the way, suggesting features and benefits will replace planning and expertise. Users then expect their new system to work instantly, with the same level of robustness of these implementations past, out of the box with little or no expert support.<br><br><strong>You've probably already discovered that this isn't the case.<br>There's a better way.</strong></p>
-
+</section>
+<section id="services" class="services">
 <p><h4><strong>There is a Middle Ground - Our Nuanced Approach</h4></strong><br>
 Every project at The Empire Builders Group has three phases:<br>
 <div class="columns">
@@ -52,6 +55,7 @@ Every project at The Empire Builders Group has three phases:<br>
 </div>
 <br/>
 <strong><p>On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.<br></strong> Oh, and freedom from rainmain spreadsheets.</p>
+</section>
 <hr />
 <br/>
 <section>
