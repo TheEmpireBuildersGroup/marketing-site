@@ -21,12 +21,12 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <img class="img-responsive"src="{{site.baseurl}}/assets/img/keys_info-8.png" alt="the key">
 <h6 class="nostyle gold">The integrations are just "one click". It says so right here. We pay the fee, enter the credentials from [insert anything you keep company data in] and then it just works.</h6>
 </div></article></section>
-<p><h2><strong>Why Does This Happen?</h2></strong><br>
+<p><h3><strong>Why Does This Happen?</h3></strong><br>
 <strong>Consider how technology was implemented 10 years ago:</strong><br><br>
 <strong><li>Managed by - </strong>Multidisciplinary committee including IT, process engineers, information systems analysts.<br>
 <strong><li>Sourcing Methodology - </strong>600 page request for proposal process over the span of 18 months<br> with a minimum of three D&B vetted responses.<br>
 <strong><li>Implementation - </strong> Analyze the business process, issue purchase order to Goldmine or Oracle<br> with company specified terms and conditions, implement each module and test before implementing the next,<br> two week system shutdown to port the data, six months of comprehensive user training.<br>
-<strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold.</li><br><br><hr />
+<strong><li>Outcome - </strong>Necessary business intelligence is generated on reports or sent to integrated systems when required.<br> Users understand how their actions contribute to the values appearing on those reports. The system works and the data is sound.<br> Companies discover the data is so sound that when "big data" becomes important years later, their information can be queried or sold.</li><br><br>
 <section id="services" class="services">
 <img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
 <h3>There is a Better Way</h3>
@@ -37,7 +37,7 @@ Technology involves two types of people: those who understand what they do not m
 <span class="large-quote">&rdquo;</span>
 </p>
 <p><h3>There is a Middle Ground - Our Nuanced Approach</h3><br><br>
-Every project at The Empire Builders Group has three phases:</p><br>
+Every project at The Empire Builders Group has three phases. On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity. Oh, and freedom from rainmain spreadsheets.</p><br>
 <div class="columns">
 <div class="third">
 <img src="{{site.baseurl}}/assets/img/consult_process.png" alt="Consult Process" class="img">
@@ -55,8 +55,6 @@ Every project at The Empire Builders Group has three phases:</p><br>
 <p>We work with your existing vendors and technical team, supplementing with other expertise needed and our relationships with the technology brand team. We work together to configure your system for your unique requirements, including showing you what the technology can do for your business process so you can maximize your investment.</p>
 </div>
 </div>
-<br/>
-<strong><p>On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.<br></strong> Oh, and freedom from rainmain spreadsheets.</p>
 </section>
 <br/>
 <section id="services" class="services">
