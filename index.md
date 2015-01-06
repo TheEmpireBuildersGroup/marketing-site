@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Successful Businesses use Technology as a Strategy."
-second_title: "Gamblers leave Business Intelligence to Chance."
 permalink: /
 title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Analysis, Business Analysis, System Integrators, Data Analysis, System Configuration"
 
@@ -16,17 +15,15 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
 <div class="third margin-l-r-2em">
 <img class="img-responsive"src="{{site.baseurl}}/assets/img/keys_info-8.png" alt="the key">
 <h6 class="nostyle gold">The integrations are just "one click". It says so right here. We pay the fee, enter the credentials from [insert anything you keep company data in] and then it just works.</h6>
-</div>
-</article>
-</section>
-<hr />
-
 <p><h4><strong>What an Average Technology Implementation Looks Like Today:</strong></h4><br> 
 <strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
 <strong><li>Sourcing Methodology - </strong>Poll LinkedIn, Google, colleagues, for solutions and best practices.<br> 
 <strong><li>Implementation - </strong>Stick credit card number into internet form, send link to intern for setup.<br>  
 <strong><li>Outcome - </strong>Necessary business intelligence doesn't magically appear on the fancy, built-in dashboard.<br> Feelings of anger and frustration over time and dollars wasted while Saturdays are spent reformatting the previous reporting spreadsheet.</li></p>  
-
+</div>
+</article>
+</section>
+<hr />
 <p><h4><strong>Why Does This Happen?</h4></strong><br>
 <strong>Consider how technology was implemented 10 years ago:<br></strong>
 <strong><li>Managed by - </strong>Multidisciplinary committee including IT, process engineers, information systems analysts.<br>
