@@ -192,39 +192,6 @@ The first rule of any technology used in a business is that automation applied t
 </p>
 &mdash;Bill Gates
 </div>
-<!-- <section id="strategic-change" class="card-container-hover">
-<section class="card-container">
-<article id="card1" class="card card1">
-<h3>Growth</h3>
-<p>Pushing past a plateau, expanding internationally, opening a new product or line of business, under new management, merging, taking investment or pursuing IPO</p>
-<hr class="hr-30">
-<h5>Needs We Serve</h5>
-<p class="small-type">Expanding Current Systems, Transition Out of Legacy Systems, Transition to Electronic Workflows and Processes, Due Diligence on New Technology, Implementation of New Technology, Integrating Systems</p>
-</article>
-<article id="card2" class="card card2">
-<h3>Strategic Operators</h3>
-<p>Investment groups and operators seeking leverage through merger, acquisition and divestiture of similar types of businesses</p>
-<hr class="hr-30">
-<h5>Needs We Serve</h5>
-<p class="small-type">Supporting Due Diligence team in assessing potential value of a company’s data and technology, Transition Out of Legacy Systems, Transition to Electronic Workflows and Processes, Due Diligence on New Technology Solution, Implementation of New Technology, Integrating Systems, Dashboarding and Analytics, Liquidation of Electronic Assets including Data, Domains, IP and Technology Licensing, Data Salvage, Review of Current Technology Architecture, Spend, Risk and Licensing, Renegotiation of Contract Terms with Technology Providers</p>
-</article>
-<article id="card3" class="card card3">
-<h3>Downsizing</h3>
-<p>Reduction in workforce, closure of locations or lines of business, reorganization of staff or lines of business, bankruptcy</p>
-<hr class="hr-30">
-<h5>Needs We Serve</h5>
-<p class="small-type">Review of Current Technology Architecture, Spend, Risk and Licensing, Renegotiation of Contract Terms with Technology Providers, Transition to Electronic Workflows and Processes, Integrating Systems, Liquidation of Electronic Assets including Data, Domains, IP and Technology Licensing, Data Salvage, Forensic and Audit Support, Information Systems Management Process Compliance to Most Standards, Data Integrity Compliance Support for Most Industries, including HIPPA</p>
-</article>
-<article id="card4" class="card card4">
-<h3>Loss</h3>
-<p>recent breach, crisis, loss, litigation, significant exposure or significant findings in audit, bankruptcy</p>
-<hr class="hr-30">
-<h5>Needs We Serve</h5>
-<p class="small-type">Emergency Technology and Data Expertise for Breach, Audit and Crisis, Forensic and Litigation Support, Information Systems Management Process Compliance to Most Standards, Data Integrity Compliance Support for Most Industries, including HIPPA</p>
-</article>
-<div class="clearfix"></div>
-</section>
-</section> -->
 <section id="tools">
 <h1 class="">Industry Expertise</h1>
 <p><strong>Our services are most attractive to specific types of industries (many compliance regulated)</strong>, namely because their data is of great value and cyberbreach is a significant concern. These types of companies see a large return on their investment quickly because improving work flow using technology properly dramatically boosts their revenues.</p>
@@ -263,30 +230,3 @@ The first rule of any technology used in a business is that automation applied t
 </li>
 </ul>
 </section>
-<!-- <section id="the_second">
-<h3>The second type of company that sees the greatest return from working with The Empire Builders Group is any company undergoing a strategic change:</h3>
-<br/>
-<ul class="list">
-<li>Being Acquired, Doing Acquisition</li>
-<li>Merging</li>
-<li>International Expansion</li>
-<li>Spinning off a new product or line of business</li>
-<li>Pushing past current plateau</li>
-<li>Under new management</li>
-<li>Transition to electronic records</li>
-<li>Looking to transition from legacy systems</li>
-<li>Recent loss, litigation, significant exposure or significant findings in audit </li>
-<li>Taking Investment</li>
-<li>Pursuing IPO</li>
-<li>Looking to Sell, Be Valued</li>
-</ul>
-<br>
-<p>Outside of this niche expertise, all industries seeking to improve their use of operational technology may find our services of value. <a href="#">Contact us for details</a>.</p>
-</section>
-<section class="quote">
-From time to time, we offer a turnkey CRM deployment at a flat reasonable rate for a small business to both train our new staff and field test new releases of systems we love. Limitations apply.
-<br/><br/>
-<a href="{{site.baseurl}}/contact" class="btn btn-primary">Contact us to get on the waiting list.</a>
-</section> -->
-<hr />
-<a href="{{site.baseurl}}/contact" class="btn btn-primary">How can we help you?</a>
