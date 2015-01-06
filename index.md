@@ -43,9 +43,9 @@ Every project at The Empire Builders Group has three phases:<br>
 <p>We work with you to understand and tighten your business workflows using our tested methodology. Quickly and easily, we'll effectively capture how technology can help your team best and show you where you can save significant amounts of money.</p>
 </div>
 <div class="third">
-<img src="{{site.baseurl}}/assets/img/consult_data.png" alt="Consult Data" class="img">
+<img src="{{site.baseurl}}/assets/img/consult_diligence.png" alt="Consult Data" class="img">
 <h3>Data<br/>Mapping</h3>
-<p>We examine the information going in and listen to what is required to come from the system. We ask difficult questions and help bring very different data sets together or recovering lost or corrupted data from a previous system or a breach. Then we map the delta to make sure we can actually get you from point A to point B.</p>
+<p>We examine the information going in and listen to what is required to come from the system. We ask difficult question, bring different data sets together or help recover lost or corrupted data from a previous system or breach. Then we map the delta to ensure you can actually get from point A to point B.</p>
 </div>
 <div class="third">
 <img src="{{site.baseurl}}/assets/img/consult_tech.png" alt="Consult Tech" class="img">
@@ -56,7 +56,6 @@ Every project at The Empire Builders Group has three phases:<br>
 <br/>
 <strong><p>On average, we're done in twelve weeks and at launch, users experience a 30-40% boost in productivity.<br></strong> Oh, and freedom from rainmain spreadsheets.</p>
 </section>
-<hr />
 <br/>
 <section id="services" class="services">
 <h2>Our Services</h2>
@@ -65,35 +64,6 @@ Every project at The Empire Builders Group has three phases:<br>
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology Implementation</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/sectors" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Expense Management</h4></a></div>
 </div>
-<article>
-<img class="" src="{{site.baseurl}}/assets/img/consult_management.png" alt="Consult Management">
-<h3>System Implementation</h3>
-<p>You need a new system, to expand your current system, to transition out of a legacy system or to merge your system with another. We understand what your goals are, what resources you already have in place and what already exists in your company. We examine your work flow, collect your data and help you select the best technology on the market for your specific need. Our team configures your system, brings in your data, completes the integrations, and formats the reports to your liking. We train your team on using the new system and processes and leave you with the resources you need to manage it on your own. </p>
-</article>
-<article>
-<img class="" src="{{site.baseurl}}/assets/img/consult_risk.png" alt="Consult Risk">
-<h3>System Optimization</h3>
-<p>You have a system with data in it and it works fine or you don&#8217;t have the option to change it. We can help make using that system more effective and efficient. Some examples include: 1) transition to electronic workflows and processes - the paperless and paperlight offices. This includes support of Electronic Medical Record conversions. 2) integration of systems or combination of data sets for reporting 3) any complex dashboarding and analytics, especially if you can&#8217;t get or find the data in your existing technology. We identify where you&#8217;d like to be leaner or faster, work with or train your team to do the work if you prefer, provide business analysis or setup the systems, queries and reports that you need. </p>
-</article>
-<article>
-<img class="" src="{{site.baseurl}}/assets/img/consult_strategy.png" alt="Consult Strategy">
-<h3>Company Technology Strategy</h3>
-<p>General Counsel won’t approve the Sugar CRM contract and you can’t even find a phone number to call their legal group. You moved hosting companies and now you can’t seem to access old email. The last company won’t help you. Your clients keep getting hacked and it makes you nervous because they only thing they share in common is you. There has to be a way to make all of these systems easier. Using excel to create our reporting is arduous and time consuming. The CEO heard Google Apps for Business was cheaper, the IT guy had some free Sharepoint licenses so you built a document library for production on it, your accountant insists you use a cloud based financial package and now the sales manager wants to buy Pipeliner. We help companies review their current technology architecture, spend, risk and licensing and support the renegotiation of contract terms with technology providers. </p>
-</article>
-<article>
-<img class="" src="{{site.baseurl}}/assets/img/consult_diligence.png" alt="Consult Diligence">
-<h3>Due Diligence of Companies and Technology</h3>
-<p>We are often requested during an audit, due diligence or valuation to provide our recommendations around the integrity, risk factors and potential value of a company's current data and technology. Our deliverables include any compliance or deal required documentation in industry acceptable formats. We then apply this expertise to helping our clients select the right technology vendors and technology solutions for their business. Your IT team can help determine if your server and your workstations are configured properly, but how much experience do they have in helping you make strategic vendor decisions? You speak in business needs; most technology companies speak in techie-ese. We help understand what your business requires and translate that into a functional specification. We can then define scopes of work for various vendors or providers, provide you a feature and benefit review of products and services on the market. </p>
-</article>
-<article>
-<img class="" src="{{site.baseurl}}/assets/img/consult_other.png" alt="Consult Other Services">
-<h3>Other Services Offered</h3>
-<p>Liquidation of Electronic Assets including Data, Domains, IP and Technology Licensing, Data Salvage, Forensics and Audit Support, Information Systems Management Process Compliance to Most Standards, Data Integrity Compliance Support for Most Industries, including HIPPA, Emergency Technology and Data Expertise for Breach, Audit and Crisis, Forensic and Litigation Support</p>
-</article>
-</section>
-<hr />
-
-
 <sector id="team">
 <h1>Our Team</h1>
 <div class="columns">
@@ -106,15 +76,15 @@ Every project at The Empire Builders Group has three phases:<br>
 <div class="columns">
 <div class="third wider">
 <h3>Technologists</h3>
-<p>Our technologists understand how the technology itself works, how it behaves in a local or cloud based network environment and when integrated to other systems. <strong>They know the pros and cons of the leading solution brands</strong> in your industry today and those emerging. When what you need doesn't exist, they can help get it built. Our techies are interacting with your IT staff throughout a project, assisting in the development of a functional specification, due diligence of possible solutions and recommendations around a final solution.</p>
+<p>Our technologists understand how the technology itself works, how it behaves in a local or cloud based network environment and when integrated to other systems. <strong>They know the pros and cons of leading brands</strong> and those emerging. When what you need doesn't exist, they can help get it built. </p>
 </div>
 <div class="third">
 <h3>Business Analysts</h3>
-<p>Our business analysts know your industry and your technology goals and they are able to <strong>determine the most efficient and effective way the businesses, departments and processes should be organized</strong>, re-engineered or designed. They perform initial project assessments, provide user training and help with any configuration that requires automation of a workflow.</p>
+<p>Our analysts are trained profiteers with methodologies to <strong>determine the most efficient and effective way the businesses, departments and processes should be organized</strong>, re-engineered or designed. They perform initial project assessments, provide user training and help with any configuration that requires automation of a workflow.</p>
 </div>
 <div class="third wider">
 <h3>Data Analysts</h3>
-<p>Our data analysts understand the kind of data you <strong>are</strong> and <strong>are not</strong> collecting already. They provide import, export, inspecting, cleaning and <strong>transforming data so it can be useable by you and your system.</strong> They have expertise in dashboarding and analysis driving decision making. The data analysts verify that the reporting you require is possible based on what you are putting into your system, they validate integration planning keeps information intact and they build the queries and reports that you were never able to get before. </p>
+<p>Our data analysts understand data and the human behavior around it. They understand the regulations in your industry and help ensure data security through integrations. They have expertise in key performance indicators, dashboarding and analysis driving decision making and have established wizardry in query and report creation. </p>
 </div>
 </div>
 </sector>
@@ -123,9 +93,8 @@ Every project at The Empire Builders Group has three phases:<br>
 Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand. We build the bridge.
 <span class="large-quote">&rdquo;</span>
 </p>
-<p>The team at The Empire Builders Group is recognized regularly for their expertise and contributions to the industries in which we operate. Our extended team includes joint venture and strategic partners providing cybersecurity, web and mobile application development, risk management and legal support to our work where our clients require this support. The most common thing a new prospect, especially those with complex problems, will tell us is that everyone kept referring them here no matter who they asked. <strong>Our think tank is a common resource for our peers, the industry, the press and anyone curious about the diagnostic technology space.</strong></p>
 <img class="img-responsive full-width row" src="{{site.baseurl}}/assets/img/office-pano.jpg" alt="" />
-<p>When we're not on a client site somewhere in the world, you'll find us enjoying the amazing city of Philadelphia, a bustling technology and innovation hub. We're community contributors, supporting our own corporate initiatives, those of our strategic partners and those our staff are personally interested. We’ll keep playing silly games on Twitter and attending the Philadelphia Geek Awards and consistently delivering quality technology solutions to our clients year after year so they can stay focused on their business. <strong>Let us help you get back to business</strong>.</p>
+<p>The team at The Empire Builders Group is recognized regularly for their expertise and contributions to the industries in which we operate. Our extended team includes strategic partners providing cybersecurity, web and mobile application development, risk management and legal support and the services our client needs require. When we're not on a client site somewhere in the world, you'll find us enjoying the amazing city of Philadelphia, a bustling technology and innovation hub. We're community contributors, supporting our own corporate initiatives, those of our strategic partners and those our staff are personally interested. We’ll keep playing silly games on Twitter and attending the Philadelphia Geek Awards and consistently delivering quality technology solutions to our clients year after year so they can stay focused on their business. <strong>Let us help you get back to business</strong>.</p>
 <hr>
 <a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span> What We Do For You</a>
 <section id="tools">
