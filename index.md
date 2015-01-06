@@ -7,7 +7,7 @@ title-bar: "Technology Consultants, CRM Experts, Process Engineers, Workflow Ana
 hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_home.jpg'
 ---
 <section id="familiar">
-<p><h4><strong>What an Average Technology Implementation Looks Like Today:</h4></strong><br>
+<p><h4><strong>An Average Technology Implementation Today</h4></strong><br>
 <strong><li>Managed by - </strong>Businessperson with another main role or responsibility.<br> 
 <strong><li>Sourcing Methodology - </strong>Poll LinkedIn, Google, colleagues, for solutions and best practices.<br> 
 <strong><li>Implementation - </strong>Stick credit card number into internet form, send link to intern for setup.<br>  
@@ -39,8 +39,8 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Expense Management</h4></a></div></p>
 <p class="quote h5">
 <span class="large-quote">&ldquo;</span>
-Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand.<span class="large-quote">&rdquo;</span>
+Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand.<br>
 <p>&ndash;Mike Trout<br>
 <a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span> Why Our Approach Works</a>
-</div>
+</div><span class="large-quote">&rdquo;</span>
 </section>
