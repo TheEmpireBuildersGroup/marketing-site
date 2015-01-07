@@ -36,10 +36,9 @@ hero_image: 'http://empirebuilders.com.s3.amazonaws.com/site_assets/imgs/header_
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/consult_strategy.png"><h4><br>Strategic<br> Consulting</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/hammer-pen.png"><h4>Technology Implementation</h4></a></div>
     <div class="fourth"><a href="{{site.baseurl}}/consult" class=""><img class="animate-nudge-hover" src="{{site.baseurl}}/assets/img/lightbulb.png"><h4>Technology Expense Management</h4></a></div></p>
-<p class="quote h5">
-<span class="large-quote">&ldquo;</span>
-Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand.<br>
+<div class="quote">
+<h3>"Technology involves two types of people: those who understand what they do not manage, and those who manage what they do not understand."<br></h3>
 <p>&ndash;Mike Trout<br>
 <a href="{{site.baseurl}}/consult" class="btn btn-primary"><span class="icon-tools"></span> Why Our Approach Works</a>
-</div><span class="large-quote">&rdquo;</span>
+</div></div>
 </section>
